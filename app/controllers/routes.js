@@ -17,3 +17,6 @@ router.get('/', function (req, res, next) {
   });
 });
 
+
+//MongoDB URI: mongodb://heroku_n8kb4b7b:6919jj9ks1prdkfgih2m1q2fpu@ds045684.mongolab.com:45684/heroku_n8kb4b7b
+//Single Node URI Format: mongodb://dbuser:dbpass@host:port/dbname
