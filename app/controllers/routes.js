@@ -11,7 +11,7 @@ router.get('/', function (req, res, next) {
   Work.find(function (err, works) {
     if (err) return next(err);
     res.render('index', {
-      title: 'Generator-Express MVC',
+      title: 'Work Title',
       work: works
     });
   });
