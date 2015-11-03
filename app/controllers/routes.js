@@ -11,8 +11,13 @@ router.get('/', function (req, res, next) {
   Work.find(function (err, works) {
     if (err) return next(err);
     res.render('index', {
-      title: 'Work Title',
-      work: works
+      title: 'realjoet.me',
+      instagram: 'https://instagram.com/realjoet',
+      twitter: 'https://twitter.com/realjoet',
+      medium: 'https://medium.com/@realjoet',
+      github: 'https://github.com/realjoet',
+      linkedin: 'https://www.linkedin.com/profile/view?id=AAIAAA0fQ_YB2Glelzb90wcEo6J64SkOuYXYn54&trk=nav_responsive_tab_profile',
+      works: works
     });
   });
 });
