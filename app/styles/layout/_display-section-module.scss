@@ -1,3 +1,21 @@
+.display-section__headline {
+  color: $base-blue;
+  font-size: 120px;
+  font-weight: 900;
+  margin: 0 auto;
+  width: 90%;
+
+  @media (min-width: 1028px) {
+    font-size: 216px;
+    width: 93%;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 288px;
+    width: 96%;
+  }
+}
+
 .display-section-container {
   position: relative;
   top: 420px;
@@ -15,38 +33,32 @@
 .display-section--build, 
 .display-section--write, 
 .display-section--play {
-  background: #4A4A4A;
   bottom: 40px;
-  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
   margin: 0 auto;
   position: relative;
-  width: 84%;
+  width: 86%;
 
   @media (min-width: $break-one) {
     bottom: 80px;
-    width: 87%;
+    width: 89%;
   }
 
   @media (min-width: $break-two) {
     bottom: 100px;
-    width: 90%;
+    width: 92%;
   }
 }
 
-.display-section__headline {
-  color: $base-blue;
-  font-size: 120px;
-  font-weight: 900;
-  margin: 0 auto;
-  width: 90%;
+.display-section__content-hero {
+  background: $base-grey;
+  height: 20vw;
+  margin: 0 0 2% 2%;
+  transition: all .4s;
+  width: 20vw;
 
-  @media (min-width: 1028px) {
-    font-size: 216px;
-    width: 93%;
-  }
-
-  @media (min-width: 1280px) {
-    font-size: 288px;
-    width: 96%;
+  &:hover {
+    transform: scale(1.05);
   }
 }
