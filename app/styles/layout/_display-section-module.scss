@@ -15,15 +15,21 @@
 .display-section--build, 
 .display-section--write, 
 .display-section--play {
+  background: #4A4A4A;
+  bottom: 40px;
+  height: 600px;
   margin: 0 auto;
-  width: 87%;
+  position: relative;
+  width: 84%;
 
   @media (min-width: $break-one) {
-    width: 90%;
+    bottom: 80px;
+    width: 87%;
   }
 
   @media (min-width: $break-two) {
-    width: 93%;
+    bottom: 100px;
+    width: 90%;
   }
 }
 
@@ -31,7 +37,7 @@
   color: $base-blue;
   font-size: 120px;
   font-weight: 900;
-  margin: 0 auto 5%;
+  margin: 0 auto;
   width: 90%;
 
   @media (min-width: 1028px) {
