@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  box-sizing: border-box;
+  font: inherit;
+  font-family: "Roboto", "Avenir", "Helvetica", "sans-serif";
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.masthead-background-image {
+  background: url("../img/mountain-background.jpeg") no-repeat 50% 20%;
+  background-size: 100%;
+  height: 230px;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .masthead-background-image {
+      height: 576px; } }
+
+.masthead-container {
+  background: rgba(30, 166, 218, 0.5);
+  display: flex;
+  flex-flow: column wrap;
+  height: 230px;
+  position: relative;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .masthead-container {
+      height: 576px; } }
+
+.social-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  order: 1;
+  padding: 25px 0;
+  width: 80%; }
+  @media (min-width: 1028px) {
+    .social-links {
+      width: 60%; } }
+
+.social-link {
+  background-size: 100%;
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 0;
+  height: 60px;
+  transition: all .4s;
+  width: 60px; }
+  .social-link:hover {
+    transform: scale(1.05); }
+  .social-link#instagram-link {
+    background: url("../img/social/instagram-logo--35.png") no-repeat center/100%; }
+    @media (min-width: 1028px) {
+      .social-link#instagram-link {
+        background: url("../img/social/instagram-logo--45.png") no-repeat center/100%; } }
+    @media (min-width: 1280px) {
+      .social-link#instagram-link {
+        background: url("../img/social/instagram-logo--60.png") no-repeat center/100%; } }
+  .social-link#twitter-link {
+    background: url("../img/social/twitter-logo--35.png") no-repeat center/100%; }
+    @media (min-width: 1028px) {
+      .social-link#twitter-link {
+        background: url("../img/social/twitter-logo--45.png") no-repeat center/100%; } }
+    @media (min-width: 1280px) {
+      .social-link#twitter-link {
+        background: url("../img/social/twitter-logo--60.png") no-repeat center/100%; } }
+  .social-link#medium-link {
+    background: url("../img/social/medium-logo--35.png") no-repeat center/100%; }
+    @media (min-width: 1028px) {
+      .social-link#medium-link {
+        background: url("../img/social/medium-logo--45.png") no-repeat center/100%; } }
+    @media (min-width: 1280px) {
+      .social-link#medium-link {
+        background: url("../img/social/medium-logo--60.png") no-repeat center/100%; } }
+  .social-link#github-link {
+    background: url("../img/social/github-logo--35.png") no-repeat center/100%; }
+    @media (min-width: 1028px) {
+      .social-link#github-link {
+        background: url("../img/social/github-logo--45.png") no-repeat center/100%; } }
+    @media (min-width: 1280px) {
+      .social-link#github-link {
+        background: url("../img/social/github-logo--60.png") no-repeat center/100%; } }
+  .social-link#linkedin-link {
+    background: url("../img/social/linkedin-logo--35.png") no-repeat center/100%; }
+    @media (min-width: 1028px) {
+      .social-link#linkedin-link {
+        background: url("../img/social/linkedin-logo--45.png") no-repeat center/100%; } }
+    @media (min-width: 1280px) {
+      .social-link#linkedin-link {
+        background: url("../img/social/linkedin-logo--60.png") no-repeat center/100%; } }
+
+.statement-container {
+  order: 3;
+  position: absolute;
+  top: 380px;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .statement-container {
+      order: 2;
+      position: initial; } }
+
+.statement {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  margin: 0 auto;
+  padding: 3% 0;
+  width: 70%; }
+  @media (min-width: 1028px) {
+    .statement {
+      color: #FFF;
+      font-size: 18px;
+      line-height: 23px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      width: 60%; } }
+  @media (min-width: 1280px) {
+    .statement {
+      font-size: 24px;
+      line-height: 31px;
+      padding: 0; } }
+
+.personal-info-container {
+  display: flex;
+  flex-flow: column;
+  order: 2;
+  position: absolute;
+  top: 110px;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .personal-info-container {
+      flex-flow: row wrap;
+      order: 3;
+      padding: 0 80px;
+      top: 440px; } }
+
+.image-container {
+  background: #FFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  height: 182px;
+  margin: 0 auto;
+  padding: 5px;
+  width: 182px; }
+  @media (min-width: 1028px) {
+    .image-container {
+      margin: 0; } }
+  @media (min-width: 1280px) {
+    .image-container {
+      height: 235px;
+      padding: 7.5px;
+      width: 235px; } }
+
+.personal-image {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  height: 172px;
+  width: 172px; }
+  @media (min-width: 1280px) {
+    .personal-image {
+      height: 220px;
+      width: 220px; } }
+
+.personal-info-details {
+  margin: 0 auto;
+  position: relative;
+  top: 20px; }
+  @media (min-width: 1028px) {
+    .personal-info-details {
+      margin: 0;
+      padding: 45px 0 0 25px;
+      position: initial; } }
+
+.personal-info-details__name {
+  color: #4A4A4A;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center; }
+  @media (min-width: 1028px) {
+    .personal-info-details__name {
+      color: #FFF;
+      text-align: left;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
+
+.personal-info-details__title {
+  color: #4A4A4A;
+  font-size: 24px;
+  text-align: center; }
+  @media (min-width: 1028px) {
+    .personal-info-details__title {
+      color: #FFF;
+      text-align: left;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
+
+.display-section-container {
+  position: relative;
+  top: 420px;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .display-section-container {
+      top: 55px; } }
+  @media (min-width: 1280px) {
+    .display-section-container {
+      top: 120px; } }
+
+.display-section--build,
+.display-section--write,
+.display-section--play {
+  margin: 0 auto;
+  width: 87%; }
+  @media (min-width: 1028px) {
+    .display-section--build,
+    .display-section--write,
+    .display-section--play {
+      width: 90%; } }
+  @media (min-width: 1280px) {
+    .display-section--build,
+    .display-section--write,
+    .display-section--play {
+      width: 93%; } }
+
+.display-section__headline {
+  color: #1EA6DA;
+  font-size: 120px;
+  font-weight: 900;
+  margin: 0 auto 5%;
+  width: 90%; }
+  @media (min-width: 1028px) {
+    .display-section__headline {
+      font-size: 216px;
+      width: 93%; } }
+  @media (min-width: 1280px) {
+    .display-section__headline {
+      font-size: 288px;
+      width: 96%; } }
