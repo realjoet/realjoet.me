@@ -198,12 +198,16 @@ table {
 
 .personal-image {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  height: 172px;
-  width: 172px; }
+  height: 200px;
+  margin: 0 auto;
+  width: 200px; }
+  @media (min-width: 1028px) {
+    .personal-image {
+      margin: 0; } }
   @media (min-width: 1280px) {
     .personal-image {
-      height: 220px;
-      width: 220px; } }
+      height: 230px;
+      width: 230px; } }
 
 .personal-info-details {
   margin: 0 auto;
@@ -287,9 +291,84 @@ table {
 
 .display-section__content-hero {
   background: #4A4A4A;
-  height: 20vw;
+  box-shadow: 1px 1px 4px #4a4a4a;
+  height: 26vw;
   margin: 0 0 2% 2%;
   transition: all .4s;
-  width: 20vw; }
+  width: 26vw; }
   .display-section__content-hero:hover {
+    box-shadow: 2px 2px 8px #4a4a4a;
     transform: scale(1.05); }
+  @media (min-width: 1028px) {
+    .display-section__content-hero {
+      height: 20vw;
+      width: 20vw; } }
+
+.treasure-container {
+  display: none;
+  margin: 0 0 5% 2%;
+  width: 95%; }
+  @media (min-width: 1280px) {
+    .treasure-container {
+      width: 93%; } }
+
+.treasure-hero {
+  background: #4A4A4A;
+  box-shadow: -1px -1px 4px rgba(74, 74, 74, 0.5);
+  height: 250px;
+  margin-bottom: 2%;
+  width: 100%; }
+  @media (min-width: 1028px) {
+    .treasure-hero {
+      height: 350px; } }
+  @media (min-width: 1280px) {
+    .treasure-hero {
+      height: 400px; } }
+
+.close-button {
+  color: #FFF;
+  cursor: pointer;
+  float: right;
+  font-size: 36px;
+  padding: 6px;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  text-shadow: 1px 1px 4px #4A4A4A; }
+
+.treasure-description-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+
+.description-head {
+  width: 100%; }
+
+.treasure-description__title {
+  color: #1EA6DA;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 6px 0 8px;
+  float: left; }
+
+.treasure-description__link {
+  color: #1EA6DA;
+  cursor: pointer;
+  float: right;
+  margin: 6px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all .4s; }
+  .treasure-description__link:hover {
+    background: rgba(30, 166, 218, 0.2); }
+
+.treasure-description__role {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  width: 100%; }
+
+.treasure-description__details {
+  line-height: 22px;
+  width: 100%; }

@@ -1,0 +1,82 @@
+.treasure-container {
+  display: none;
+  margin: 0 0 5% 2%;
+  width: 95%;
+
+  @media (min-width: $break-two) {
+    width: 93%;
+  }
+}
+
+.treasure-hero {
+  background: $base-grey;
+  box-shadow: -1px -1px 4px rgba($base-grey, .5);
+  height: 250px;
+  margin-bottom: 2%;
+  width: 100%;
+
+  @media (min-width: $break-one) {
+    height: 350px;
+  }
+
+  @media (min-width: $break-two) {
+    height: 400px;
+  }
+}
+
+.close-button {
+  color: $base-white;
+  cursor: pointer;
+  float: right;
+  font-size: 36px;
+  padding: 6px;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  text-shadow: 1px 1px 4px $base-grey;
+}
+
+.treasure-description-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.description-head {
+  width: 100%;
+}
+
+.treasure-description__title {
+  color: $base-blue;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 6px 0 8px;
+  float: left;
+}
+
+.treasure-description__link {
+  color: $base-blue;
+  cursor: pointer;
+  float: right;
+  margin: 6px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all .4s;
+
+  &:hover {
+    background: rgba($base-blue, .2);
+  }
+}
+
+.treasure-description__role {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.treasure-description__details {
+  line-height: 22px;
+  width: 100%;
+}

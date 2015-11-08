@@ -10,10 +10,22 @@ gulp.task('sass', function () {
     .pipe(livereload());
 });
 
-//Set up a gulp.task() to push images from app/assets to public/img
+gulp.task('js', function () {
+  return js('./app/js/*.js')
+    .pipe(gulp.dest('./public/js'))
+    .pipe(livereload());
+})
+
+gulp.task('.img', function () {
+  return img('.app/assets/**/*.jpg')
+    .pipe(gulp.dest('./public/img'))
+    .pipe(livereload);
+})
 
 gulp.task('watch', function() {
   gulp.watch('./app/styles/**/*.scss', ['sass']);
+  gulp.watch('./app/js/*.js', ['js']);
+  gulp.watch('./app/assets/**/*.jpg', ['img']);
 });
 
 gulp.task('develop', function () {
@@ -35,6 +47,7 @@ gulp.task('develop', function () {
 
 gulp.task('default', [
   'sass',
+  'js',
   'develop',
   'watch'
 ]);

@@ -183,12 +183,17 @@
 
 .personal-image {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
-  height: 172px;
-  width: 172px;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+
+  @media (min-width: $break-one) {
+    margin: 0;
+  }
 
   @media (min-width: $break-two) {
-    height: 220px;
-    width: 220px;
+    height: 230px;
+    width: 230px;
   }
 }
 

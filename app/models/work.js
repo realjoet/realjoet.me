@@ -6,10 +6,13 @@ var mongoose = require('mongoose'),
 var WorkSchema = new Schema({
   title: String,
   role: String,
-  description: String,
+  details: String,
+  hero: String,
+  treasureHero: String,
   type: String, // Build, Write or Play
   live: Boolean, // Is there a live site they can visit??
-  url: String
+  url: String,
+  id: Number
 });
 
 WorkSchema.virtual('date')

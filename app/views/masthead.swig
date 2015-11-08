@@ -19,11 +19,9 @@
 </div>
 
 <div class="personal-info-container">
-  <div class="image-container">
-    <img src="img/headshot-joe-toscano.jpg" alt="Picture of Joe" class="personal-image">
-  </div>
+  <img src="img/headshot-joe-toscano.jpg" alt="Picture of Joe" class="personal-image">
   <div class="personal-info-details">
     <h1 class="personal-info-details__name">Joe Toscano</h1>
-    <h2 class="personal-info-details__title">Proactive Designer & Engineer</h2> 
+    <h2 class="personal-info-details__title">Proactive UX Designer & Engineer</h2> 
   </div>
 </div>

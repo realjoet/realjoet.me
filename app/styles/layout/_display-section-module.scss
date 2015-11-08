@@ -52,13 +52,21 @@
 }
 
 .display-section__content-hero {
+  // background: url({{ work.hero }}) center center/100%;
   background: $base-grey;
-  height: 20vw;
+  box-shadow: 1px 1px 4px rgba($base-grey, 1);
+  height: 26vw;
   margin: 0 0 2% 2%;
   transition: all .4s;
-  width: 20vw;
+  width: 26vw;
 
   &:hover {
+    box-shadow: 2px 2px 8px rgba($base-grey, 1);
     transform: scale(1.05);
+  }
+
+  @media (min-width: $break-one) {
+    height: 20vw;
+    width: 20vw;
   }
 }

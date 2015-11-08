@@ -1,0 +1,48 @@
+{
+  "work": [
+    {
+      "title": "Spiffly",
+      "role": "Front-End Developer",
+      "details": "details",
+      "hero": "hero url", //find image in local
+      "treasureHero": "treasureHero url", //find image in local
+      "type": "build",
+      "live": true, //or false
+      "url": "http://www.spiffly.is",
+      "id": 1
+    }
+    {
+      "title": "The Unicorn Workflow: Design to Code with Atomic Design Principles and Sketch",
+      "role": "Author",
+      "details": "Wish your design could be as modular as your code? Click through to find out how to make it happen!",
+      "hero": "hero url", //find image in local
+      "treasureHero": "treasureHero url", //find image in local
+      "type": "write",
+      "live": true, //or false
+      "url": "https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37",
+      "id": 2
+    }
+    {
+      "title": "title",
+      "role": "role",
+      "details": "details",
+      "hero": "hero url",
+      "treasureHero": "treasureHero url",
+      "type": "Build, Write or Play",
+      "live": true, //or false
+      "url": "url",
+      "id": 1
+    }
+    {
+      "title": "title",
+      "role": "role",
+      "details": "details",
+      "hero": "hero url",
+      "treasureHero": "treasureHero url",
+      "type": "Build, Write or Play",
+      "live": true, //or false
+      "url": "url",
+      "id": 1
+    }
+  ]
+}
