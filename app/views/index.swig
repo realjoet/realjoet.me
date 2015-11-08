@@ -119,8 +119,13 @@
       <div class="display-section__content-hero" data-order="5"></div>
       <div class="display-section__content-hero" data-order="6"></div>
       {% for work in works %}
+        {% if work.type === "write" %}
+          {% include "treasure-chest.swig" %}
+        {% endif %}
+      {% endfor %}
+      {% for work in works %}
         {% if work.type === "build" %}
-          <div class="display-section__content-hero" data-id="{{ work.id }}" style="order: {{ loop.index }}"></div>
+          <div class="display-section__content-hero" data-order= "{{ loop.index }}" style="background: url({{ work.displayHero }} center center/100%"></div>
         {% endif %}
       {% endfor %}
     </div>
@@ -134,7 +139,7 @@
       {% endfor %}
       {% for work in works %}
         {% if work.type === "write" %}
-          <div class="display-section__content-hero" style="order: {{ loop.index }}"></div>
+          <div class="display-section__content-hero" data-order= "{{ loop.index }}" style="background: url({{ work.displayHero }} center center/100%"></div>
         {% endif %}
       {% endfor %}
     </div>
@@ -142,8 +147,13 @@
     <h1 class="display-section__headline">I Play</h1>
     <div class="display-section--play clearfix">
       {% for work in works %}
+        {% if work.type === "write" %}
+          {% include "treasure-chest.swig" %}
+        {% endif %}
+      {% endfor %}
+      {% for work in works %}
         {% if work.type === "play" %}
-          <div class="display-section__content-hero" style="order: {{ loop.index }}"></div>
+          <div class="display-section__content-hero" data-order= "{{ loop.index }}" style="background: url({{ work.displayHero }} center center/100%"></div>
         {% endif %}
       {% endfor %}
     </div>

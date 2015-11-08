@@ -7,7 +7,7 @@ var WorkSchema = new Schema({
   title: String,
   role: String,
   details: String,
-  hero: String,
+  displayHero: String,
   treasureHero: String,
   type: String, // Build, Write or Play
   live: Boolean, // Is there a live site they can visit??
