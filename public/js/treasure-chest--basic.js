@@ -12,11 +12,13 @@ $(function() {
 
     treasure.each(function(index, obj){
       if ($(obj).data('order') === elData && $(obj).hasClass('open')) {
-        console.log('Already open');
+        console.log("Already open");
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
       } else if ($(obj).data('order') === elData) {
         $(this).slideDown(600).addClass('open');
+      } else {
+        console.log("That's not even an option")
       }
     });
   })
