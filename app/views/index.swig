@@ -14,7 +14,7 @@
       <!-- TEMP DISPLAY SECTION INCLUDE, UNTIL DATA IS CONNECTED -->
       {% include "display-section--build.swig" %}
       {% for work in works %}
-        {% if work.type === "write" %}
+        {% if work.type === "build" %}
           {% include "treasure-chest.swig" %}
         {% endif %}
       {% endfor %}
@@ -50,16 +50,21 @@
       <!-- TEMP DISPLAY SECTION INCLUDE, UNTIL DATA IS CONNECTED -->
       {% include "display-section--play.swig" %}
       {% for work in works %}
-        {% if work.type === "write" %}
+        {% if work.section === "play" %}
           {% include "treasure-chest.swig" %}
         {% endif %}
       {% endfor %}
       {% for work in works %}
-        {% if work.type === "play" %}
+        {% if work.section === "play" %}
           <div class="display-section__content-hero" data-order= "{{ loop.index }}" style="background: url({{ work.displayHero }} center center/100%"></div>
         {% endif %}
       {% endfor %}
     </div>
     <!-- END I BUILD SECTION -->
+
+    <div class="email-section">
+      <p>Wanna chat?</p>
+      <h1>yo@realjoet.me</h1>
+    </div>
   </div>
 {% endblock %}

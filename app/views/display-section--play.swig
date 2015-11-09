@@ -1,6 +1,6 @@
-<div class="treasure-container" data-order="1">
+<div class="treasure-container" data-order="8">
   <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -8,16 +8,13 @@
       <a class="treasure-description__link" href="TODO" target="_blank">Visit Site</a>
     </div>
     <h2 class="treasure-description__role">Front-End Engineer</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
-    <br>
-    <br>
-    I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
+    <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="2">
+<div class="treasure-container" data-order="9">
   <div class="treasure-hero" style="background: url(img/work/3d-printing-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -35,9 +32,9 @@
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="3">
+<div class="treasure-container" data-order="10">
   <div class="treasure-hero" style="background: url(img/work/black-white-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -45,16 +42,16 @@
       <a class="treasure-description__link" href="https://www.behance.net/gallery/20037697/B-W-Illustrations" target="_blank">Visit Site</a>
     </div>
     <h2 class="treasure-description__role">Illustrator</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
+    <p class="treasure-description__details">During my time at BDW we were challenged to create illustrations with two words we drew from a hat. Mine were Black & White.
     <br>
     <br>
-    I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
+    What can you do with Black & White only? More than you think.
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="4">
+<div class="treasure-container" data-order="11">
   <div class="treasure-hero" style="background: url(img/work/tiger-art-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -62,14 +59,11 @@
       <a class="treasure-description__link" href="https://www.behance.net/gallery/20421743/Color-Changed-Tigers" target="_blank">Visit Site</a>
     </div>
     <h2 class="treasure-description__role">Illustrator</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
-    <br>
-    <br>
-    I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
+    <p class="treasure-description__details">I've always loved tigers. If I could have an exotic pet, it'd be a tiger or a kangaroo.
     </p>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="1" style="background: url(img/work/parallax-boxer-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="2" style="background: url(img/work/3d-printing-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="3" style="background: url(img/work/black-white-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="4" style="background: url(img/work/tiger-art-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="8" style="background: url(img/work/parallax-boxer-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="9" style="background: url(img/work/3d-printing-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="10" style="background: url(img/work/black-white-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="11" style="background: url(img/work/tiger-art-hero.png) center center/100%"></div>

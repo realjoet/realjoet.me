@@ -47,10 +47,50 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  color: #1EA6DA;
+  font-weight: 900;
+  text-decoration: none; }
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both; }
+
+.email-section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto 8%;
+  width: 86%; }
+  @media (min-width: 1028px) {
+    .email-section {
+      bottom: 80px;
+      width: 89%; } }
+  @media (min-width: 1280px) {
+    .email-section {
+      bottom: 100px;
+      width: 92%; } }
+  .email-section p {
+    font-size: 28px;
+    font-weight: 900;
+    width: 100%; }
+    @media (min-width: 1028px) {
+      .email-section p {
+        font-size: 36px; } }
+    @media (min-width: 1280px) {
+      .email-section p {
+        font-size: 48px; } }
+  .email-section h1 {
+    color: #1EA6DA;
+    font-size: 100px;
+    font-weight: 900;
+    width: 90%; }
+    @media (min-width: 1028px) {
+      .email-section h1 {
+        font-size: 120px; } }
+    @media (min-width: 1280px) {
+      .email-section h1 {
+        font-size: 144px; } }
 
 .masthead-background-image {
   background: url("../img/mountain-background.jpeg") no-repeat 50% 20%;
@@ -218,6 +258,9 @@ table {
       margin: 0;
       padding: 45px 0 0 25px;
       position: initial; } }
+  @media (min-width: 1280px) {
+    .personal-info-details {
+      padding: 25px 0 0 25px; } }
 
 .personal-info-details__name {
   color: #4A4A4A;
@@ -230,6 +273,9 @@ table {
       color: #FFF;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
+  @media (min-width: 1280px) {
+    .personal-info-details__name {
+      font-size: 48px; } }
 
 .personal-info-details__title {
   color: #4A4A4A;
@@ -240,6 +286,9 @@ table {
       color: #FFF;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
+  @media (min-width: 1280px) {
+    .personal-info-details__title {
+      font-size: 28px; } }
 
 .display-section__headline {
   color: #1EA6DA;
@@ -325,15 +374,17 @@ table {
       height: 400px; } }
 
 .close-button {
-  color: #FFF;
   cursor: pointer;
   float: right;
-  font-size: 36px;
-  padding: 6px;
+  height: 60px;
   position: relative;
-  right: 10px;
-  top: 10px;
-  text-shadow: 1px 1px 4px #4A4A4A; }
+  right: 20px;
+  top: 20px;
+  text-shadow: 1px 1px 4px #4A4A4A;
+  transition: all .4s;
+  width: 60px; }
+  .close-button:hover {
+    transform: scale(1.05); }
 
 .treasure-description-container {
   display: flex;
@@ -349,17 +400,27 @@ table {
   font-weight: 900;
   padding: 6px 0 8px;
   float: left; }
+  @media (min-width: 1280px) {
+    .treasure-description__title {
+      font-size: 48px; } }
 
 .treasure-description__link {
   color: #1EA6DA;
   cursor: pointer;
   float: right;
+  font-size: 16px;
   margin: 6px 0;
   padding: 10px 15px;
   text-decoration: none;
   transition: all .4s; }
   .treasure-description__link:hover {
     background: rgba(30, 166, 218, 0.2); }
+  @media (min-width: 1028px) {
+    .treasure-description__link {
+      font-size: 18px; } }
+  @media (min-width: 1280px) {
+    .treasure-description__link {
+      font-size: 24px; } }
 
 .treasure-description__role {
   font-size: 18px;
@@ -367,7 +428,22 @@ table {
   padding-bottom: 15px;
   text-transform: uppercase;
   width: 100%; }
+  @media (min-width: 1028px) {
+    .treasure-description__role {
+      font-size: 24px; } }
+  @media (min-width: 1280px) {
+    .treasure-description__role {
+      font-size: 28px; } }
 
 .treasure-description__details {
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 23px;
   width: 100%; }
+  @media (min-width: 1028px) {
+    .treasure-description__details {
+      font-size: 18px;
+      line-height: 23px; } }
+  @media (min-width: 1280px) {
+    .treasure-description__details {
+      font-size: 24px;
+      line-height: 31px; } }

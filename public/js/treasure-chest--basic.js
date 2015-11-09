@@ -6,24 +6,32 @@ $(function() {
   treasure.hide();
 
   hero.click(function() {
-    var el = $(this);
-    var elData = el.data('order');
-    var elOrder = el.eq();
+    var hero = $(this);
 
-    treasure.each(function(index, obj){
-      if ($(obj).data('order') === elData && $(obj).hasClass('open')) {
-        console.log("Already open");
-      } else if ($(obj).hasClass('open')) {
-        $(this).slideUp(600).removeClass('open');
-      } else if ($(obj).data('order') === elData) {
-        $(this).slideDown(600).addClass('open');
-      } else {
-        console.log("That's not even an option")
-      }
-    });
+    treasureKey(hero);
   })
 
   closeButton.click(function() {
     $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
   })
+
+  /* Checks to see if the data-order attribute of the display hero you clicked on is the same as the data-order attribute on a treasure display. 
+
+  If the order on the display hero and treasure display is the same and the treasure display is open, you'll get a log to the console >> "Already open". 
+
+  If the data-order doesn't match but there is a treasure display open, the treasure display that doesn't match will close and the treasure display with an order that matches the display hero you clicked on will open. */
+  function treasureKey(el) {
+    var hero = $(el);
+    var heroData = hero.data('order');
+
+    treasure.each(function(index, obj){
+      if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
+        console.log("Already open");
+      } else if ($(obj).hasClass('open')) {
+        $(this).slideUp(600).removeClass('open');
+      } else if ($(obj).data('order') === heroData) {
+        $(this).slideDown(600).addClass('open');
+      }
+    });
+  }
 })

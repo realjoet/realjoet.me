@@ -9,7 +9,8 @@ var WorkSchema = new Schema({
   details: String,
   displayHero: String,
   treasureHero: String,
-  type: String, // Build, Write or Play
+  section: String, // Build, Write or Play
+  type: String, // Site, Article or Other
   live: Boolean, // Is there a live site they can visit??
   url: String,
   id: Number

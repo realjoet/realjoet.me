@@ -1,6 +1,6 @@
-<div class="treasure-container" data-order="1">
+<div class="treasure-container" data-order="4">
   <div class="treasure-hero" style="background: url(img/work/atomic-design-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -15,9 +15,9 @@
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="2">
+<div class="treasure-container" data-order="5">
   <div class="treasure-hero" style="background: url(img/work/meaning-of-learning-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -32,9 +32,9 @@
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="3">
+<div class="treasure-container" data-order="6">
   <div class="treasure-hero" style="background: url(img/work/end-of-writing-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -46,9 +46,9 @@
     </p>
   </div>
 </div>
-<div class="treasure-container" data-order="4">
+<div class="treasure-container" data-order="7">
   <div class="treasure-hero" style="background: url(img/work/limitless-comm-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -63,7 +63,7 @@
     </p>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="1" style="background: url(img/work/atomic-design-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="2" style="background: url(img/work/meaning-of-learning-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="3" style="background: url(img/work/end-of-writing-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="4" style="background: url(img/work/limitless-comm-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="4" style="background: url(img/work/atomic-design-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="5" style="background: url(img/work/meaning-of-learning-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="6" style="background: url(img/work/end-of-writing-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="7" style="background: url(img/work/limitless-comm-hero.png) center center/100%"></div>

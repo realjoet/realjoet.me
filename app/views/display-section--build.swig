@@ -1,6 +1,6 @@
 <div class="treasure-container" data-order="1">
   <div class="treasure-hero" style="background: url(img/work/spiffly-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -17,7 +17,7 @@
 </div>
 <div class="treasure-container" data-order="2">
   <div class="treasure-hero" style="background: url(img/work/fridays-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -25,16 +25,16 @@
       <a class="treasure-description__link" href="http://www.tgifridays.com/americasnextapp" target="_blank">Visit Site</a>
     </div>
     <h2 class="treasure-description__role">Front-End Engineer</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
+    <p class="treasure-description__details">Created a micro site for TGI Friday's while I was working at <a href="www.mademovement.com" target="_blank">Made</a> to generate a public decision on what app should be created and added to Friday's selection of Endless Apps. 
     <br>
     <br>
-    I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
+    The site was viewed and interacted with by millions of users across a variety of viewports.
     </p>
   </div>
 </div>
 <div class="treasure-container" data-order="3">
   <div class="treasure-hero" style="background: url(img/work/rosie-treasure-hero.png) center center/110%">
-    <div class="close-button">X</div>
+    <img src="../img/close-button.png" alt="close item details" class="close-button">
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -42,10 +42,10 @@
       <a class="treasure-description__link" href="https://medium.com/re-write/product-design-is-the-new-form-of-leadership-77368a535038" target="_blank">Read More</a>
     </div>
     <h2 class="treasure-description__role">Designer & Engineer</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
+    <p class="treasure-description__details">Eating healthy is hard, especially when you don't understand the numbers. Rosie is a technology I've created that teaches users to eat intuitively.
     <br>
     <br>
-    I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
+    Stop counting numbers, start enjoying life.
     </p>
   </div>
 </div>

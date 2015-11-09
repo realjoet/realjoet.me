@@ -1,6 +1,6 @@
 <div class="treasure-container" data-order= "{{ loop.index }}">
   <div class="treasure-hero" style="background: url({{ work.treasureHero }}) center center/100%">
-    <span class="close-button">X</span>
+    <span class="close-button"></span>
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
