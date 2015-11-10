@@ -11,7 +11,7 @@ var config = {
     port: 3000,
     //MongoDB URI: mongodb://heroku_n8kb4b7b:6919jj9ks1prdkfgih2m1q2fpu@ds045684.mongolab.com:45684/heroku_n8kb4b7b
     //Find out more about URI and DB connection here: https://devcenter.heroku.com/articles/mongolab#connecting-to-existing-mongolab-deployments-from-heroku
-    db: 'mongodb://localhost/realjoet-me-development'
+    db: 'mongodb://heroku_n8kb4b7b:6919jj9ks1prdkfgih2m1q2fpu@ds045684.mongolab.com:45684/heroku_n8kb4b7b'
   },
 
   test: {
