@@ -28,7 +28,6 @@ var config = {
     app: {
       name: 'realjoet-me'
     },
-    // Google how to set up Node production env on Heroku
     port: process.env.PORT,
     db: process.env.MONGOLAB_URI
   }
