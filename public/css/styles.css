@@ -71,6 +71,7 @@ a {
       bottom: 100px;
       width: 92%; } }
   .email-section p {
+    color: #4A4A4A;
     font-size: 28px;
     font-weight: 900;
     width: 100%; }
@@ -352,6 +353,10 @@ a {
     .display-section__content-hero {
       height: 20vw;
       width: 20vw; } }
+  .display-section__content-hero .blue-cover {
+    background: rgba(30, 166, 218, 0.5);
+    height: 100%;
+    width: 100%; }
 
 .treasure-container {
   display: none;

@@ -69,4 +69,10 @@
     height: 20vw;
     width: 20vw;
   }
+
+  .blue-cover {
+    background: rgba($base-blue, .5);
+    height: 100%;
+    width: 100%;
+  }
 }
