@@ -14,7 +14,7 @@
     I have experiences and education in a variety of fields , all of which synergistically improve my ability to creatively solve problems.
     <br>
     <br>
-    I strive to make things so simple and useful they can't help but more us forward.
+    I strive to make things so simple and useful they can't help but move us forward.
   </p>
 </div>
 
