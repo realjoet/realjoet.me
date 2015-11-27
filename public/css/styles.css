@@ -749,7 +749,7 @@ a {
   .email-section {
     display: flex;
     flex-flow: row wrap;
-    margin: 0 auto 8%;
+    margin: 5% auto 15%;
     width: 86%; }
     .email-section p {
       color: #4A4A4A;
