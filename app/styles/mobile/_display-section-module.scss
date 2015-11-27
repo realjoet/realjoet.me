@@ -8,14 +8,14 @@
 
 .display-section-container {
   position: relative;
-  top: 550px;
+  top: 570px;
   width: 100%;
 }
 
 .display-section--build, 
 .display-section--write, 
 .display-section--play {
-  bottom: 40px;
+  bottom: 23px;
   display: flex;
   flex-flow: row wrap;
   margin: 0 auto;
@@ -27,10 +27,10 @@
   // background: url({{ work.hero }}) center center/100%;
   background: $base-grey;
   box-shadow: 1px 1px 4px rgba($base-grey, 1);
-  height: 26vw;
+  height: 82vw;
   margin: 0 0 2% 2%;
   transition: all .4s;
-  width: 26vw;
+  width: 82vw;
 
   &:hover {
     box-shadow: 2px 2px 8px rgba($base-grey, 1);
