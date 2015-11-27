@@ -1,0 +1,78 @@
+.display-section__headline {
+  color: $base-blue;
+  font-size: 120px;
+  font-weight: 900;
+  margin: 0 auto;
+  width: 90%;
+
+  @media (min-width: 1028px) {
+    font-size: 216px;
+    width: 93%;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 288px;
+    width: 96%;
+  }
+}
+
+.display-section-container {
+  position: relative;
+  top: 420px;
+  width: 100%;
+
+  @media (min-width: $break-one) {
+    top: 55px;
+  }
+
+  @media (min-width: $break-two) {
+    top: 120px;
+  }
+}
+
+.display-section--build, 
+.display-section--write, 
+.display-section--play {
+  bottom: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  position: relative;
+  width: 86%;
+
+  @media (min-width: $break-one) {
+    bottom: 80px;
+    width: 89%;
+  }
+
+  @media (min-width: $break-two) {
+    bottom: 100px;
+    width: 92%;
+  }
+}
+
+.display-section__content-hero {
+  // background: url({{ work.hero }}) center center/100%;
+  background: $base-grey;
+  box-shadow: 1px 1px 4px rgba($base-grey, 1);
+  height: 26vw;
+  margin: 0 0 2% 2%;
+  transition: all .4s;
+  width: 26vw;
+
+  &:hover {
+    box-shadow: 2px 2px 8px rgba($base-grey, 1);
+    transform: scale(1.05);
+  }
+
+  @media (min-width: $break-one) {
+    height: 20vw;
+    width: 20vw;
+  }
+
+  .blue-cover {
+    background: rgba($base-blue, .5);
+    height: 100%;
+    width: 100%;
+  }
+}

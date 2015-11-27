@@ -1,0 +1,46 @@
+.email-section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto 8%;
+  width: 86%;
+
+  @media (min-width: $break-one) {
+    bottom: 80px;
+    width: 89%;
+  }
+
+  @media (min-width: $break-two) {
+    bottom: 100px;
+    width: 92%;
+  }
+
+  p {
+    color: $base-grey;
+    font-size: 28px;
+    font-weight: 900;
+    width: 100%;
+
+    @media (min-width: $break-one) {
+      font-size: 36px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 48px;
+    }
+  }
+
+  h1 {
+    color: $base-blue;
+    font-size: 72px;
+    font-weight: 900;
+    width: 90%;
+
+    @media (min-width: $break-one) {
+      font-size: 120px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 144px;
+    }
+  }
+}

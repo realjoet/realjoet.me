@@ -8,7 +8,7 @@
       <a class="treasure-description__link" href="http://spiffly.is" target="_blank">Visit Site</a>
     </div>
     <h2 class="treasure-description__role">Front-End Engineer</h2>
-    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P -- that's business to prosumer -- transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
+    <p class="treasure-description__details">Spiffly is a marketplace for good. A place for B2P &#8212 that's business to prosumer &#8212 transactions. Prosumers get products at wholesale cost, which takes the risk out of trying something new and gives them motivation to promote the product if it's good. Businesses still make money but get marketing from prosumers' social presence. 
     <br>
     <br>
     I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
