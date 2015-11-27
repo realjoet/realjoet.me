@@ -4,16 +4,6 @@
   margin: 0 auto 8%;
   width: 86%;
 
-  @media (min-width: $break-one) {
-    bottom: 80px;
-    width: 89%;
-  }
-
-  @media (min-width: $break-two) {
-    bottom: 100px;
-    width: 92%;
-  }
-
   p {
     color: $base-grey;
     font-size: 20px;
