@@ -16,31 +16,15 @@
 
   p {
     color: $base-grey;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 900;
     width: 100%;
-
-    @media (min-width: $break-one) {
-      font-size: 36px;
-    }
-
-    @media (min-width: $break-two) {
-      font-size: 48px;
-    }
   }
 
   h1 {
     color: $base-blue;
-    font-size: 72px;
+    font-size: 48px;
     font-weight: 900;
     width: 90%;
-
-    @media (min-width: $break-one) {
-      font-size: 120px;
-    }
-
-    @media (min-width: $break-two) {
-      font-size: 144px;
-    }
   }
 }

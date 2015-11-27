@@ -25,5 +25,12 @@
     ga('send', 'pageview');
 
   </script>
+  <script>
+    $(function() {
+      $('body').on('mouseleave', function(){
+        console.log("mouse out");
+      })
+    })
+  </script>
 </body>
 </html>
