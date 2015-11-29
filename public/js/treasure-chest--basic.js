@@ -30,6 +30,8 @@ $(function() {
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
       } else if ($(obj).data('order') === heroData) {
+        var $topPos = $(this).position.top;
+        
         $(this).slideDown(600).addClass('open');
       }
     });

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/styles.css">
   <script src="//load.sumome.com/" data-sumo-site-id="d351e209bd8add1eea3d248127257d703bd0878752e2f13b8d17d1c1149c33ee" async="async"></script>
