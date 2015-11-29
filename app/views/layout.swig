@@ -10,7 +10,6 @@
   {# <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> #}
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/styles.css">
-  <script src="//load.sumome.com/" data-sumo-site-id="d351e209bd8add1eea3d248127257d703bd0878752e2f13b8d17d1c1149c33ee" async="async"></script>
   {% if ENV_DEVELOPMENT %}
     <script src="http://localhost:35729/livereload.js"></script>
   {% endif %}
@@ -19,6 +18,7 @@
   {% block content %}{% endblock %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="/js/treasure-chest--basic.js"></script>
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c97cc3bd0015d447d4d930f4c","lid":"e542dc22e5"}) })</script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
