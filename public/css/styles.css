@@ -57,6 +57,24 @@ a {
   display: table;
   clear: both; }
 
+.button--blue {
+  color: #1EA6DA;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  margin: 6px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: all .4s; }
+  .button--blue:hover {
+    background: rgba(30, 166, 218, 0.2); }
+  @media (min-width: 1028px) {
+    .button--blue {
+      font-size: 18px; } }
+  @media (min-width: 1280px) {
+    .button--blue {
+      font-size: 24px; } }
+
 .masthead-background-image {
   background: url("../img/mountain-background.jpeg") no-repeat 50% 20%;
   background-size: 100%;
@@ -417,40 +435,96 @@ a {
       font-size: 24px;
       line-height: 31px; } }
 
-.email-section {
+.display-section--contact {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 auto 8%;
+  margin: 0 auto;
   width: 86%; }
   @media (min-width: 1028px) {
-    .email-section {
+    .display-section--contact {
       bottom: 80px;
       width: 89%; } }
   @media (min-width: 1280px) {
-    .email-section {
+    .display-section--contact {
       bottom: 100px;
       width: 92%; } }
-  .email-section p {
+  .display-section--contact #mc_embed_signup {
+    width: 80%; }
+    .display-section--contact #mc_embed_signup em {
+      font-style: italic; }
+    .display-section--contact #mc_embed_signup strong {
+      font-weight: 700; }
+    .display-section--contact #mc_embed_signup .asterisk--blue {
+      color: #1EA6DA; }
+  .display-section--contact #mc-embed-cta {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31px;
+    padding: 0 0 5% 0; }
+  .display-section--contact input {
+    border-radius: 3px;
+    font-weight: 200;
+    color: #00A297;
+    font-size: 1.5rem;
+    margin: 2% 0;
+    padding: 2%;
+    width: 100%; }
+  .display-section--contact input:focus {
+    background-color: #1EA6DA;
+    color: #FFF;
+    font-weight: 400;
+    outline-color: unset; }
+  .display-section--contact input.button#mc-embedded-subscribe {
+    background: none;
+    border-radius: 0px;
+    color: #1EA6DA;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    height: auto;
+    margin: 6px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all .4s; }
+    .display-section--contact input.button#mc-embedded-subscribe:hover {
+      background: rgba(30, 166, 218, 0.2); }
+    @media (min-width: 1028px) {
+      .display-section--contact input.button#mc-embedded-subscribe {
+        font-size: 18px; } }
+    @media (min-width: 1280px) {
+      .display-section--contact input.button#mc-embedded-subscribe {
+        font-size: 24px; } }
+  .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
     color: #4A4A4A;
+    font-size: 24px;
+    font-weight: 300; }
+  .display-section--contact div.mc-field-group.input-group label {
+    margin-left: 15px; }
+  .display-section--contact .lets-chat--text {
+    color: #4A4A4A;
+    display: inline;
+    float: left;
     font-size: 28px;
     font-weight: 900;
+    margin: 8% auto 0;
     width: 100%; }
     @media (min-width: 1028px) {
-      .email-section p {
+      .display-section--contact .lets-chat--text {
         font-size: 36px; } }
     @media (min-width: 1280px) {
-      .email-section p {
+      .display-section--contact .lets-chat--text {
         font-size: 48px; } }
-  .email-section h1 {
+  .display-section--contact .lets-chat--email {
     color: #1EA6DA;
     font-size: 72px;
     font-weight: 900;
-    width: 90%; }
+    margin: 0 auto 8%;
+    width: 97%; }
     @media (min-width: 1028px) {
-      .email-section h1 {
+      .display-section--contact .lets-chat--email {
         font-size: 120px; } }
     @media (min-width: 1280px) {
-      .email-section h1 {
+      .display-section--contact .lets-chat--email {
         font-size: 144px; } }
 
 @media (max-width: 786px) {

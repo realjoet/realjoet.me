@@ -1,7 +1,7 @@
-.email-section {
+.display-section--contact {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 auto 8%;
+  margin: 0 auto;
   width: 86%;
 
   @media (min-width: $break-one) {
@@ -14,10 +14,95 @@
     width: 92%;
   }
 
-  p {
+  #mc_embed_signup {
+    width: 80%;
+    
+    em {
+      font-style: italic;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .asterisk--blue {
+      color: $base-blue;
+    }
+  }
+
+  #mc-embed-cta {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31px;
+    padding: 0 0 5% 0;
+  }
+
+  input {
+    border-radius: 3px;
+    font-weight: 200;
+    color: #00A297; 
+    font-size: 1.5rem;
+    margin: 2% 0;
+    padding: 2%;
+    width: 100%;
+  }
+
+  input:focus {
+    background-color: $base-blue;
+    color: $base-white; 
+    font-weight: 400;
+    outline-color: unset;
+  }
+
+  input.button#mc-embedded-subscribe {
+    background: none;
+    border-radius: 0px;
+    color: $base-blue;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    height: auto;
+    margin: 6px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all .4s;
+
+    &:hover {
+      background: rgba($base-blue, .2);
+    }
+
+    @media (min-width: $break-one) {
+      font-size: 18px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 24px;
+    }
+  }
+
+  div.mc-field-group label, div.mc-field-group strong {
     color: $base-grey;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  div.mc-field-group.input-group label {
+    margin-left: 15px;
+  }
+
+
+
+
+  //! CONTACT INFO _____________________________________
+  //! __________________________________________________
+
+  .lets-chat--text {
+    color: $base-grey;
+    display: inline;
+    float: left;
     font-size: 28px;
     font-weight: 900;
+    margin: 8% auto 0;
     width: 100%;
 
     @media (min-width: $break-one) {
@@ -29,11 +114,12 @@
     }
   }
 
-  h1 {
+  .lets-chat--email {
     color: $base-blue;
     font-size: 72px;
     font-weight: 900;
-    width: 90%;
+    margin: 0 auto 8%;
+    width: 97%;
 
     @media (min-width: $break-one) {
       font-size: 120px;
