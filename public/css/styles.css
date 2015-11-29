@@ -496,12 +496,10 @@ a {
     margin-left: 15px; }
   .display-section--contact .lets-chat--text {
     color: #4A4A4A;
-    display: inline;
-    float: left;
     font-size: 28px;
     font-weight: 900;
-    margin: 8% 0 0 10%;
-    width: 100%; }
+    margin: 8% auto 0;
+    width: 80%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--text {
         font-size: 36px; } }
@@ -512,8 +510,8 @@ a {
     color: #1EA6DA;
     font-size: 72px;
     font-weight: 900;
-    margin: 0 0 8% 10%;
-    width: 97%; }
+    margin: 0 auto 8%;
+    width: 80%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--email {
         font-size: 120px; } }

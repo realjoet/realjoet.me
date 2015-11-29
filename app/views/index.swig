@@ -117,7 +117,7 @@
 
       <!--End mc_embed_signup-->
      
-      <span class="lets-chat--text">Wanna chat?</span>
+      <p class="lets-chat--text">Wanna chat?</p>
       <h1 class="lets-chat--email">yo@realjoet.me</h1>
     </div>
     <!-- END I PLAY SECTION -->
