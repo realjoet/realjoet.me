@@ -500,7 +500,7 @@ a {
     float: left;
     font-size: 28px;
     font-weight: 900;
-    margin: 8% auto 0;
+    margin: 8% 0 0 10%;
     width: 100%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--text {
@@ -512,7 +512,7 @@ a {
     color: #1EA6DA;
     font-size: 72px;
     font-weight: 900;
-    margin: 0 auto 8%;
+    margin: 0 0 8% 10%;
     width: 97%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--email {
