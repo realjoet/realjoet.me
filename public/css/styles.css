@@ -479,11 +479,11 @@ a {
     border-radius: 0px;
     color: #1EA6DA;
     cursor: pointer;
-    float: left;
-    font-size: 16px;
+    font-size: 24px;
     height: auto;
-    margin: 6px 0;
     padding: 10px 15px;
+    position: relative;
+    right: 1.3%;
     text-decoration: none;
     transition: all .4s; }
     .display-section--contact input.button#mc-embedded-subscribe:hover {
@@ -498,7 +498,7 @@ a {
     color: #4A4A4A;
     font-size: 28px;
     font-weight: 900;
-    margin: 8% auto 0;
+    margin: 8% 0 0;
     width: 80%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--text {
@@ -510,7 +510,7 @@ a {
     color: #1EA6DA;
     font-size: 72px;
     font-weight: 900;
-    margin: 0 auto 8%;
+    margin: 0 0 8%;
     width: 80%; }
     @media (min-width: 1028px) {
       .display-section--contact .lets-chat--email {
