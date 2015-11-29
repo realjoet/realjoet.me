@@ -488,12 +488,6 @@ a {
     transition: all .4s; }
     .display-section--contact input.button#mc-embedded-subscribe:hover {
       background: rgba(30, 166, 218, 0.2); }
-    @media (min-width: 1028px) {
-      .display-section--contact input.button#mc-embedded-subscribe {
-        font-size: 18px; } }
-    @media (min-width: 1280px) {
-      .display-section--contact input.button#mc-embedded-subscribe {
-        font-size: 24px; } }
   .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
     color: #4A4A4A;
     font-size: 24px;
