@@ -78,7 +78,7 @@
           But this isn't one-way, we're in this together. Let me know what you would like to learn about or how I could help you, and I'll do everything I can to help you reach your goals.
           <br>
           <br>
-          Alone we may survive, but together we feast.
+          Alone we may succeed, but together we feast.
           <br>
           <br>
           Sign up to join <strong><em>The Hunt</em></strong>.
