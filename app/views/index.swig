@@ -69,7 +69,7 @@
       <div id="mc_embed_signup">
       <form action="//realjoet.us12.list-manage.com/subscribe/post?u=c97cc3bd0015d447d4d930f4c&amp;id=e542dc22e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <p id="mc-embed-cta">
-          As a UX Designer & Engineer at Quick Left, one of the top software consultancies in Colorado, and guest blogger at InVision, one of the most popular design blogs in the world, I'm constantly hunting for new, innovative material to help me adapt and grow.
+          As a UX Designer & Engineer at Quick Left, one of the top software consultancies in Colorado, and guest blogger at InVision, one of the most popular design blogs in the world, I'm constantly hunting for new, innovative material to help me evolve and grow.
           <br>
           <br>
           By signing up you'll get access to the articles I write and assets I build before anyone else, along with articles that have helped me along the way.
