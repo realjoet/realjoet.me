@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var compress = require('compression');
 var methodOverride = require('method-override');
 var swig = require('swig');
+var nunjucks = require('nunjucks');
 var jquery = require('jquery');
 
 module.exports = function(app, config) {
