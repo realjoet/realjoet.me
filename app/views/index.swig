@@ -20,7 +20,7 @@
       {% endfor %}
       {% for work in works %}
         {% if work.type === "build" %}
-          <div class="display-section__content-hero" data-order= "{{ loop.index }}" style="background: url({{ work.displayHero }} center center/100%"></div>
+          <div class="display-section__content-hero" data-order= "{{ work.id }}" style="background: url({{ work.displayHero }} center center/100%"></div>
         {% endif %}
       {% endfor %}
     </div>

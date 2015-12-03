@@ -8,7 +8,6 @@ var bodyParser = require('body-parser');
 var compress = require('compression');
 var methodOverride = require('method-override');
 var swig = require('swig');
-var jquery = require('jquery');
 
 module.exports = function(app, config) {
   var env = process.env.NODE_ENV || 'development';
