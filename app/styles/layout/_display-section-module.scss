@@ -1,3 +1,34 @@
+// @include keyframe(hero-aim) {
+//   0% {
+//     outline: .1px solid $base-blue;
+//     outline-offset: 0;
+//   }
+//   1% {
+//     outline: 1px solid $base-blue;
+//     outline-offset: .1px;
+//   }
+//   25% {
+//     outline: 3px solid lighten($base-blue, 15%);
+//     outline-offset: 5px;
+//   }
+//   50% {
+//     outline: 3px solid #18FFFF;
+//     outline-offset: 10px;
+//   }
+//   75% {
+//     outline: 3px solid lighten($base-blue, 15%);
+//     outline-offset: 5px;
+//   }
+//   99% {
+//     outline: 1px solid $base-blue;
+//     outline-offset: .1px;
+//   }
+//   100% {
+//     outline: .1px solid $base-blue;
+//     outline-offset: 0;
+//   }
+// }
+
 .display-section__headline {
   color: $base-blue;
   font-size: 120px;
@@ -61,8 +92,10 @@
   width: 26vw;
 
   &:hover {
-    box-shadow: 2px 2px 8px rgba($base-grey, 1);
-    transform: scale(1.05);
+    // @include animate(hero-aim, 1.5s, linear, 1);
+    outline: 3px solid darken(#18FFFF, 10%);
+    outline-offset: 10px;
+
   }
 
   @media (min-width: $break-one) {
@@ -70,9 +103,40 @@
     width: 20vw;
   }
 
-  .blue-cover {
-    background: rgba($base-blue, .5);
-    height: 100%;
-    width: 100%;
+  .hero-cover {
+    background: $base-grey;
+    display: flex;
+      align-items: center;
+      flex-flow: column-wrap;
+      justify-content: center;
+    height: 26vw;
+    transition: all .4s;
+    width: 26vw;
+
+    &:hover {
+      background: rgba(darken($base-grey, 5%), .9);
+
+      .hero-cover__target {
+        color: #18FFFF;
+        font-size: 60px;
+        font-weight: 300;
+        display: inline-block;
+        transition: all .4s;
+      }
+    }
+
+    @media (min-width: $break-one) {
+      height: 20vw;
+      width: 20vw;
+    }
+  }
+
+  .hero-cover__title {
+    color: $base-white;
+    font-size: 28px;
+  }
+
+  .hero-cover__target {
+    color: transparent;
   }
 }

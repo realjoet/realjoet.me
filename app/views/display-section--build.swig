@@ -51,6 +51,18 @@
     </p>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="1" style="background: url(img/work/spiffly-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="2" style="background: url(img/work/fridays-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="3" style="background: url(img/work/rosie-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="1" style="background: url(img/work/spiffly-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span></span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="2" style="background: url(img/work/fridays-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span></span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="3" style="background: url(img/work/rosie-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span></span>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
@@ -8,6 +8,7 @@
   {# ADD META IMAGE AT LEAST 600x315 AND FAVICON #}
   {# <meta property="og:image" content="http://graphics.myfavnews.com/images/logo-100x100.jpg" /> #}
   {# <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> #}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/styles.css">
   {% if ENV_DEVELOPMENT %}
@@ -36,6 +37,13 @@
   </script>
   <script>
     $(function() {
+      if (Modernizr.touch) {
+        $('.hero-cover > span').addClass('hero-cover__title');
+        $('.hero-cover__title').html("title");
+      } else {
+        $('.hero-cover > span').addClass('hero-cover__target');
+        $('.hero-cover__target').html("+");
+      }
       $('body').on('mouseleave', function(){
         console.log("mouse out");
       })

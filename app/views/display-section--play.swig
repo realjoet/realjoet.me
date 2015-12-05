@@ -63,7 +63,23 @@
     </p>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="8" style="background: url(img/work/parallax-boxer-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="9" style="background: url(img/work/3d-printing-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="10" style="background: url(img/work/black-white-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="11" style="background: url(img/work/tiger-art-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="8" style="background: url(img/work/parallax-boxer-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="9" style="background: url(img/work/3d-printing-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="10" style="background: url(img/work/black-white-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="11" style="background: url(img/work/tiger-art-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>

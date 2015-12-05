@@ -3,6 +3,10 @@
 @import 'base/typography.scss';
 @import 'base/global.scss';
 @import 'base/elements.scss';
+@import 'layout/masthead.scss';
+@import 'layout/display-section-module';
+@import 'layout/treasure-chest';
+@import 'layout/contact-section';
 
 @media (max-width: $mobile-break) {
   @import 'mobile/masthead.scss';
@@ -10,8 +14,3 @@
   @import 'mobile/treasure-chest.scss';
   @import 'mobile/contact-section.scss';
 }
-
-@import 'layout/masthead.scss';
-@import 'layout/display-section-module';
-@import 'layout/treasure-chest';
-@import 'layout/contact-section';

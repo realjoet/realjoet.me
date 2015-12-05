@@ -63,7 +63,23 @@
     </p>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="4" style="background: url(img/work/atomic-design-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="5" style="background: url(img/work/meaning-of-learning-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="6" style="background: url(img/work/end-of-writing-hero.png) center center/100%"></div>
-<div class="display-section__content-hero" data-order="7" style="background: url(img/work/limitless-comm-hero.png) center center/100%"></div>
+<div class="display-section__content-hero" data-order="4" style="background: url(img/work/atomic-design-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="5" style="background: url(img/work/meaning-of-learning-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="6" style="background: url(img/work/end-of-writing-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="7" style="background: url(img/work/limitless-comm-hero.png) center center/100%">
+  <div class="hero-cover">
+    <span class="target">+</span>
+  </div>
+</div>
