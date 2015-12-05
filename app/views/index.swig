@@ -84,7 +84,6 @@
           Sign up to join <strong><em>The Hunt</em></strong>.
         </p>
         <div id="mc_embed_signup_scroll">
-        <div class="indicates-required"><span class="asterisk--blue">*</span> Required to join <strong><em>The Hunt</em><strong></div>
         <div class="mc-field-group">
           <label for="mce-EMAIL">Email Address  <span class="asterisk--blue">*</span>
         </label>
