@@ -92,33 +92,17 @@
 
   .lets-chat--text {
     color: $base-grey;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 8vw;
+    font-weight: 300;
     margin: 8% 0 0;
     width: 80%;
-
-    @media (min-width: $break-one) {
-      font-size: 36px;
-    }
-
-    @media (min-width: $break-two) {
-      font-size: 48px;
-    }
   }
 
   .lets-chat--email {
     color: $base-blue;
-    font-size: 72px;
+    font-size: 12vw;
     font-weight: 900;
     margin: 0 0 8%;
     width: 80%;
-
-    @media (min-width: $break-one) {
-      font-size: 120px;
-    }
-
-    @media (min-width: $break-two) {
-      font-size: 144px;
-    }
   }
 }

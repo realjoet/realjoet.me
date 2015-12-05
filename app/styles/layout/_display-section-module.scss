@@ -1,48 +1,15 @@
-// @include keyframe(hero-aim) {
-//   0% {
-//     outline: .1px solid $base-blue;
-//     outline-offset: 0;
-//   }
-//   1% {
-//     outline: 1px solid $base-blue;
-//     outline-offset: .1px;
-//   }
-//   25% {
-//     outline: 3px solid lighten($base-blue, 15%);
-//     outline-offset: 5px;
-//   }
-//   50% {
-//     outline: 3px solid #18FFFF;
-//     outline-offset: 10px;
-//   }
-//   75% {
-//     outline: 3px solid lighten($base-blue, 15%);
-//     outline-offset: 5px;
-//   }
-//   99% {
-//     outline: 1px solid $base-blue;
-//     outline-offset: .1px;
-//   }
-//   100% {
-//     outline: .1px solid $base-blue;
-//     outline-offset: 0;
-//   }
-// }
-
 .display-section__headline {
   color: $base-blue;
-  font-size: 120px;
+  font-size: 25vw;
   font-weight: 900;
   margin: 0 auto;
   width: 90%;
 
   @media (min-width: 1028px) {
-    font-size: 216px;
     width: 93%;
   }
 
   @media (min-width: 1280px) {
-    font-size: 288px;
     width: 96%;
   }
 }

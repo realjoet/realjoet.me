@@ -275,17 +275,15 @@ a {
 
 .display-section__headline {
   color: #1EA6DA;
-  font-size: 120px;
+  font-size: 25vw;
   font-weight: 900;
   margin: 0 auto;
   width: 90%; }
   @media (min-width: 1028px) {
     .display-section__headline {
-      font-size: 216px;
       width: 93%; } }
   @media (min-width: 1280px) {
     .display-section__headline {
-      font-size: 288px;
       width: 96%; } }
 
 .display-section-container {
@@ -517,35 +515,20 @@ a {
     margin-left: 15px; }
   .display-section--contact .lets-chat--text {
     color: #303030;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 8vw;
+    font-weight: 300;
     margin: 8% 0 0;
     width: 80%; }
-    @media (min-width: 1028px) {
-      .display-section--contact .lets-chat--text {
-        font-size: 36px; } }
-    @media (min-width: 1280px) {
-      .display-section--contact .lets-chat--text {
-        font-size: 48px; } }
   .display-section--contact .lets-chat--email {
     color: #1EA6DA;
-    font-size: 72px;
+    font-size: 12vw;
     font-weight: 900;
     margin: 0 0 8%;
     width: 80%; }
-    @media (min-width: 1028px) {
-      .display-section--contact .lets-chat--email {
-        font-size: 120px; } }
-    @media (min-width: 1280px) {
-      .display-section--contact .lets-chat--email {
-        font-size: 144px; } }
 
 @media (max-width: 786px) {
   .statement {
     padding: 7% 0; }
-
-  .display-section__headline {
-    font-size: 90px; }
 
   .display-section-container {
     top: 570px; }
@@ -572,12 +555,10 @@ a {
       font-size: 28px; }
 
   .display-section--contact {
-    margin: 5% auto 50px; }
+    padding-bottom: 50px; }
     .display-section--contact #mc_embed_signup {
       width: 100%; }
     .display-section--contact .lets-chat--text {
-      font-size: 20px;
       width: 100%; }
     .display-section--contact .lets-chat--email {
-      font-size: 36px;
       width: 90%; } }
