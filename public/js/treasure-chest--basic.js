@@ -34,6 +34,7 @@ $(function() {
 
         if (Modernizr.touch) {
           hero.removeClass('clicked');
+          hero.off('hover');
         }
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
