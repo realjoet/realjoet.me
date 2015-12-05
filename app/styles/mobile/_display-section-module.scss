@@ -37,9 +37,17 @@
     transform: scale(1.05);
   }
 
-  .blue-cover {
-    background: rgba($base-blue, .5);
-    height: 100%;
-    width: 100%;
+  .hero-cover {
+    height: 82vw;
+    width: 82vw;
+  }
+
+  .hero-cover__title {
+    color: $base-white;
+    font-size: 28px;
+  }
+
+  .hero-cover__target {
+    color: transparent;
   }
 }
