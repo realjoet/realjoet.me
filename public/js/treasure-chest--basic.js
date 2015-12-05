@@ -16,7 +16,8 @@ $(function() {
 
     if (Modernizr.touch) {
       $(this).off('hover');
-      $(this).toggleClass('clicked');
+      $(this).animate({"box-shadow": "2px 2px 8px rgba($base-grey, 1)",
+    "transform": "scale(1.05)"}, 400);
     }
   })
 
