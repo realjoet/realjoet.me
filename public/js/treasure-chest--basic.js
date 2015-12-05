@@ -24,7 +24,9 @@ $(function() {
     var hero = $(el);
     var heroData = hero.data('order');
 
-    hero.addClass('clicked');
+    if (Modernizr.touch) {
+      hero.addClass('clicked');
+    }
 
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {

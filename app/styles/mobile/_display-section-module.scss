@@ -12,7 +12,7 @@
   height: 82vw;
   width: 82vw;
 
-  &:hover {
+  .clicked {
     box-shadow: 2px 2px 8px rgba($base-grey, 1);
     outline: none;
     transform: scale(1.05);
