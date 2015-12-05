@@ -27,6 +27,10 @@ $(function() {
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
+
+        if (Modernizr.touch) {
+          hero.off('hover');
+        }
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
       } else if ($(obj).data('order') === heroData) {
