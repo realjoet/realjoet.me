@@ -13,6 +13,10 @@ $(function() {
 
   closeButton.click(function() {
     $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
+
+    if (Modernizr.touch) {
+      hero.off('hover');
+    }
   })
 
   /* Checks to see if the data-order attribute of the display hero you clicked on is the same as the data-order attribute on a treasure display. 
@@ -26,6 +30,7 @@ $(function() {
 
     if (Modernizr.touch) {
       hero.addClass('clicked');
+      hero.off('hover');
     }
 
     treasure.each(function(index, obj){
