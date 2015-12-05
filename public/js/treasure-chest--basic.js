@@ -33,8 +33,12 @@ $(function() {
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
+        hero.off('focus');
+        hero.off('hover');
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
+        $('.clicked').off('focus');
+        $('.clicked').off('hover');
         $('.clicked').removeClass('clicked');
       } else if ($(obj).data('order') === heroData) {
         var $topPos = $(this).position.top;
