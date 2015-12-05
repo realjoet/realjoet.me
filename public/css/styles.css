@@ -555,6 +555,7 @@ a {
 
   .display-section__content-hero {
     height: 82vw;
+    margin-bottom: 5%;
     width: 82vw; }
     .display-section__content-hero:hover {
       box-shadow: 2px 2px 8px #303030;
