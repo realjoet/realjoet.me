@@ -571,6 +571,8 @@ a {
 
   .display-section--contact {
     margin: 5% auto 50px; }
+    .display-section--contact #mc_embed_signup {
+      width: 100%; }
     .display-section--contact .lets-chat--text {
       font-size: 20px;
       width: 100%; }
