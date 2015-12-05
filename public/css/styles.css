@@ -541,12 +541,13 @@ a {
   .display-section__content-hero {
     height: 82vw;
     width: 82vw; }
+    .display-section__content-hero:hover {
+      outline: none; }
+      .display-section__content-hero:hover .hero-cover {
+        opacity: 0; }
     .display-section__content-hero .clicked {
       box-shadow: 2px 2px 8px #303030;
-      outline: none;
       transform: scale(1.05); }
-      .display-section__content-hero .clicked .hero-cover {
-        opacity: 0; }
     .display-section__content-hero .hero-cover {
       height: 82vw;
       width: 82vw; }
