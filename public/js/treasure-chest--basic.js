@@ -15,7 +15,8 @@ $(function() {
     $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
 
     if (Modernizr.touch) {
-      hero.off('hover');
+      $(this).off('hover');
+      $(this).toggleClass('clicked');
     }
   })
 
@@ -28,19 +29,9 @@ $(function() {
     var hero = $(el);
     var heroData = hero.data('order');
 
-    if (Modernizr.touch) {
-      hero.addClass('clicked');
-      hero.off('hover');
-    }
-
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
-
-        if (Modernizr.touch) {
-          hero.removeClass('clicked');
-          hero.off('hover');
-        }
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
       } else if ($(obj).data('order') === heroData) {
