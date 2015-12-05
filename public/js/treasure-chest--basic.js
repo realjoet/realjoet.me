@@ -5,18 +5,20 @@ $(function() {
 
   treasure.hide();
 
+  // Doesn't un-animate on mobile when you click the same hero if it's already been opened
   hero.click(function() {
     var hero = $(this);
+
+    if (Modernizr.touch) {
+      $(this).off('focus');
+      hero.toggleClass('clicked')
+    }
 
     treasureKey(hero);
   })
 
   closeButton.click(function() {
     $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
-
-    if (Modernizr.touch) {
-      $(this).off('focus');
-    }
   })
 
   /* Checks to see if the data-order attribute of the display hero you clicked on is the same as the data-order attribute on a treasure display. 
@@ -27,10 +29,6 @@ $(function() {
   function treasureKey(el) {
     var hero = $(el);
     var heroData = hero.data('order');
-
-    if (Modernizr.touch) {
-      hero.addClass('clicked');
-    }
 
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
