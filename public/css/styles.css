@@ -327,7 +327,7 @@ a {
   transition: all .4s;
   width: 26vw; }
   .display-section__content-hero:hover {
-    outline: 4px solid #00e4e4;
+    outline: 4px solid #40C4FF;
     outline-offset: 10px; }
   @media (min-width: 1028px) {
     .display-section__content-hero {
@@ -345,7 +345,7 @@ a {
     .display-section__content-hero .hero-cover:hover {
       background: rgba(35, 35, 35, 0.9); }
       .display-section__content-hero .hero-cover:hover .hero-cover__target {
-        color: #18FFFF;
+        color: #40C4FF;
         font-size: 60px;
         font-weight: 300;
         display: inline-block;
