@@ -24,12 +24,14 @@ $(function() {
     var hero = $(el);
     var heroData = hero.data('order');
 
+    hero.addClass('clicked');
+
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
 
         if (Modernizr.touch) {
-          hero.off('hover');
+          hero.removeClass('clicked');
         }
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
