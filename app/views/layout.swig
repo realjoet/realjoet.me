@@ -27,6 +27,12 @@
     ga('create', 'UA-69915101-1', 'auto');
     ga('send', 'pageview');
 
+    $('display-section__content-hero').click(function(){
+      var $id = $(this).data('order');
+
+      ga('send', 'event', 'Clicks', 'Content Hero' + $id, 'Opened' + $id);
+    })
+
   </script>
   <script>
     $(function() {
