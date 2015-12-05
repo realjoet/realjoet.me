@@ -356,9 +356,6 @@ a {
       .display-section__content-hero .hero-cover {
         height: 20vw;
         width: 20vw; } }
-  .display-section__content-hero .hero-cover__title {
-    color: #FFF;
-    font-size: 28px; }
   .display-section__content-hero .hero-cover__target {
     color: transparent; }
 
@@ -542,314 +539,41 @@ a {
         font-size: 144px; } }
 
 @media (max-width: 786px) {
-  .masthead-background-image {
-    background: url("../img/mountain-background.jpeg") no-repeat 50% 20%;
-    background-size: 100%;
-    height: 230px;
-    width: 100%; }
-
-  .masthead-container {
-    background: rgba(30, 166, 218, 0.5);
-    display: flex;
-    flex-flow: column wrap;
-    height: 230px;
-    position: relative;
-    width: 100%; }
-
-  .social-links {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    order: 1;
-    padding: 25px 0;
-    width: 80%; }
-
-  .social-link {
-    background-size: 100%;
-    border-radius: 100px;
-    display: inline-block;
-    font-size: 0;
-    height: 60px;
-    transition: all .4s;
-    width: 60px; }
-    .social-link:hover {
-      transform: scale(1.05); }
-    .social-link#instagram-link {
-      background: url("../img/social/instagram-logo--35.png") no-repeat center/100%; }
-    .social-link#twitter-link {
-      background: url("../img/social/twitter-logo--35.png") no-repeat center/100%; }
-    .social-link#medium-link {
-      background: url("../img/social/medium-logo--35.png") no-repeat center/100%; }
-    .social-link#github-link {
-      background: url("../img/social/github-logo--35.png") no-repeat center/100%; }
-    .social-link#linkedin-link {
-      background: url("../img/social/linkedin-logo--35.png") no-repeat center/100%; }
-
-  .statement-container {
-    order: 3;
-    position: absolute;
-    top: 380px;
-    width: 100%; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .statement-container {
-      order: 2;
-      position: initial; } }
-
-@media (max-width: 786px) {
   .statement {
-    color: #303030;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 23px;
-    margin: 0 auto;
-    padding: 7% 0;
-    width: 70%; }
+    padding: 7% 0; }
 
-  .personal-info-container {
-    display: flex;
-    flex-flow: column;
-    order: 2;
-    position: absolute;
-    top: 110px;
-    width: 100%; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .personal-info-container {
-      flex-flow: row wrap;
-      order: 3;
-      padding: 0 80px;
-      top: 440px; } }
-
-@media (max-width: 786px) {
-  .image-container {
-    background: #FFF;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    height: 182px;
-    margin: 0 auto;
-    padding: 5px;
-    width: 182px; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .image-container {
-      margin: 0; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .image-container {
-      height: 235px;
-      padding: 7.5px;
-      width: 235px; } }
-
-@media (max-width: 786px) {
-  .personal-image {
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-    height: 200px;
-    margin: 0 auto;
-    width: 200px; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .personal-image {
-      margin: 0; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .personal-image {
-      height: 230px;
-      width: 230px; } }
-
-@media (max-width: 786px) {
-  .personal-info-details {
-    margin: 0 auto;
-    position: relative;
-    top: 20px; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .personal-info-details {
-      margin: 0;
-      padding: 45px 0 0 25px;
-      position: initial; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .personal-info-details {
-      padding: 25px 0 0 25px; } }
-
-@media (max-width: 786px) {
-  .personal-info-details__name {
-    color: #303030;
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    text-align: center; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .personal-info-details__name {
-      color: #FFF;
-      text-align: left;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .personal-info-details__name {
-      font-size: 48px; } }
-
-@media (max-width: 786px) {
-  .personal-info-details__title {
-    color: #303030;
-    font-size: 24px;
-    text-align: center; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .personal-info-details__title {
-      color: #FFF;
-      text-align: left;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .personal-info-details__title {
-      font-size: 28px; } }
-
-@media (max-width: 786px) {
   .display-section__headline {
-    color: #1EA6DA;
-    font-size: 90px;
-    font-weight: 900;
-    margin: 0 auto;
-    width: 90%; }
+    font-size: 90px; }
 
   .display-section-container {
-    position: relative;
-    top: 570px;
-    width: 100%; }
+    top: 570px; }
 
   .display-section--build,
   .display-section--write,
   .display-section--play {
-    bottom: 23px;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0 auto;
-    position: relative;
-    width: 86%; }
+    bottom: 23px; }
 
   .display-section__content-hero {
-    background: #303030;
-    box-shadow: 1px 1px 4px #303030;
     height: 82vw;
-    margin: 0 0 2% 2%;
-    transition: all .4s;
     width: 82vw; }
     .display-section__content-hero:hover {
       box-shadow: 2px 2px 8px #303030;
+      outline: none;
       transform: scale(1.05); }
+      .display-section__content-hero:hover .hero-cover {
+        opacity: 0; }
     .display-section__content-hero .hero-cover {
       height: 82vw;
       width: 82vw; }
     .display-section__content-hero .hero-cover__title {
       color: #FFF;
       font-size: 28px; }
-    .display-section__content-hero .hero-cover__target {
-      color: transparent; }
 
-  .treasure-container {
-    display: none;
-    margin: 0 0 5% 2%;
-    width: 95%; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-container {
-      width: 93%; } }
-
-@media (max-width: 786px) {
-  .treasure-hero {
-    background: #303030;
-    height: 250px;
-    margin-bottom: 2%;
-    width: 100%; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .treasure-hero {
-      height: 350px; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-hero {
-      height: 400px; } }
-
-@media (max-width: 786px) {
-  .close-button {
-    cursor: pointer;
-    float: right;
-    height: 60px;
-    position: relative;
-    right: 20px;
-    top: 20px;
-    text-shadow: 1px 1px 4px #303030;
-    transition: all .4s;
-    width: 60px; }
-    .close-button:hover {
-      transform: scale(1.05); }
-
-  .treasure-description-container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%; }
-
-  .description-head {
-    width: 100%; }
-
-  .treasure-description__title {
-    color: #1EA6DA;
-    font-size: 36px;
-    font-weight: 900;
-    padding: 6px 0 8px;
-    float: left; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-description__title {
-      font-size: 48px; } }
-
-@media (max-width: 786px) {
-  .treasure-description__link {
-    color: #1EA6DA;
-    cursor: pointer;
-    float: right;
-    font-size: 16px;
-    margin: 6px 0;
-    padding: 10px 15px;
-    text-decoration: none;
-    transition: all .4s; }
-    .treasure-description__link:hover {
-      background: rgba(30, 166, 218, 0.2); } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .treasure-description__link {
-      font-size: 18px; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-description__link {
-      font-size: 24px; } }
-
-@media (max-width: 786px) {
-  .treasure-description__role {
-    font-size: 18px;
-    font-weight: 300;
-    padding-bottom: 15px;
-    text-transform: uppercase;
-    width: 100%; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .treasure-description__role {
-      font-size: 24px; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-description__role {
-      font-size: 28px; } }
-
-@media (max-width: 786px) {
-  .treasure-description__details {
-    font-size: 16px;
-    line-height: 23px;
-    width: 100%; } }
-  @media (max-width: 786px) and (min-width: 1028px) {
-    .treasure-description__details {
-      font-size: 18px;
-      line-height: 23px; } }
-  @media (max-width: 786px) and (min-width: 1280px) {
-    .treasure-description__details {
-      font-size: 24px;
-      line-height: 31px; } }
-
-@media (max-width: 786px) {
   .display-section--contact {
-    display: flex;
-    flex-flow: row wrap;
-    margin: 5% auto 15%;
-    width: 86%; }
+    margin: 5% auto 15%; }
     .display-section--contact .lets-chat--text {
-      color: #303030;
       font-size: 20px;
-      font-weight: 900;
       width: 100%; }
     .display-section--contact .lets-chat--email {
-      color: #1EA6DA;
       font-size: 36px;
-      font-weight: 900;
       width: 90%; } }

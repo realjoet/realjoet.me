@@ -18,6 +18,7 @@
 <body>
   {% block content %}{% endblock %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="/js/modernizr-settings.js"></script>
   <script src="/js/treasure-chest--basic.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -36,14 +37,6 @@
 
   </script>
   <script>
-    $(function() {
-      if (Modernizr.touch) {
-        $('.hero-cover > span').addClass('hero-cover__title');
-        $('.hero-cover__title').html("title");
-      } else {
-        $('.hero-cover > span').addClass('hero-cover__target');
-        $('.hero-cover__target').html("+");
-      }
       $('body').on('mouseleave', function(){
         console.log("mouse out");
       })

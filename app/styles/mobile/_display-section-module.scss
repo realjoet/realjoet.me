@@ -1,40 +1,29 @@
 .display-section__headline {
-  color: $base-blue;
   font-size: 90px;
-  font-weight: 900;
-  margin: 0 auto;
-  width: 90%;
 }
 
 .display-section-container {
-  position: relative;
   top: 570px;
-  width: 100%;
 }
 
 .display-section--build, 
 .display-section--write, 
 .display-section--play {
   bottom: 23px;
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0 auto;
-  position: relative;
-  width: 86%;
 }
 
 .display-section__content-hero {
-  // background: url({{ work.hero }}) center center/100%;
-  background: $base-grey;
-  box-shadow: 1px 1px 4px rgba($base-grey, 1);
   height: 82vw;
-  margin: 0 0 2% 2%;
-  transition: all .4s;
   width: 82vw;
 
   &:hover {
     box-shadow: 2px 2px 8px rgba($base-grey, 1);
+    outline: none;
     transform: scale(1.05);
+
+    .hero-cover {
+      opacity: 0;
+    }
   }
 
   .hero-cover {
@@ -45,9 +34,5 @@
   .hero-cover__title {
     color: $base-white;
     font-size: 28px;
-  }
-
-  .hero-cover__target {
-    color: transparent;
   }
 }
