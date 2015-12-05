@@ -15,9 +15,7 @@ $(function() {
     $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
 
     if (Modernizr.touch) {
-      $(this).off('hover');
-      $(this).animate({"box-shadow": "2px 2px 8px rgba($base-grey, 1)",
-    "transform": "scale(1.05)"}, 400);
+      $(this).off('focus');
     }
   })
 
@@ -30,11 +28,16 @@ $(function() {
     var hero = $(el);
     var heroData = hero.data('order');
 
+    if (Modernizr.touch) {
+      hero.addClass('clicked');
+    }
+
     treasure.each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
       } else if ($(obj).hasClass('open')) {
         $(this).slideUp(600).removeClass('open');
+        $('.clicked').removeClass('clicked');
       } else if ($(obj).data('order') === heroData) {
         var $topPos = $(this).position.top;
         
