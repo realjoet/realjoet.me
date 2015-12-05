@@ -55,9 +55,10 @@
   }
 
   input.button#mc-embedded-subscribe {
-    background: none;
+    background: $base-blue;
     border-radius: 0px;
-    color: $base-blue;
+    box-shadow: 1px 1px 4px rgba($base-grey, 1);
+    color: $base-white;
     cursor: pointer;
     font-size: 24px;
     height: auto;
@@ -68,7 +69,8 @@
     transition: all .4s;
 
     &:hover {
-      background: rgba($base-blue, .2);
+      box-shadow: 2px 2px 8px rgba($base-grey, 1);
+      transform: scale(1.05);
     }
   }
 

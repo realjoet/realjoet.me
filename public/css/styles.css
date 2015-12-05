@@ -494,9 +494,10 @@ a {
     font-weight: 400;
     outline-color: unset; }
   .display-section--contact input.button#mc-embedded-subscribe {
-    background: none;
+    background: #1EA6DA;
     border-radius: 0px;
-    color: #1EA6DA;
+    box-shadow: 1px 1px 4px #303030;
+    color: #FFF;
     cursor: pointer;
     font-size: 24px;
     height: auto;
@@ -506,7 +507,8 @@ a {
     text-decoration: none;
     transition: all .4s; }
     .display-section--contact input.button#mc-embedded-subscribe:hover {
-      background: rgba(30, 166, 218, 0.2); }
+      box-shadow: 2px 2px 8px #303030;
+      transform: scale(1.05); }
   .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
     color: #303030;
     font-size: 24px;
