@@ -1,9 +1,7 @@
 $(function() {
   var hero = $('.display-section__content-hero');
-  var treasure = $('.treasure-container');
+  var treasureContainer = $('.treasure-container');
   var closeButton = $('.close-button');
-
-  treasure.hide();
 
   // Doesn't un-animate on mobile when you click the same hero if it's already been opened
   hero.click(function() {
@@ -18,7 +16,12 @@ $(function() {
   })
 
   closeButton.click(function() {
-    $(this).closest('.treasure-container').slideUp(600).removeClass('open');;
+    $(this).closest('.treasure-description__title').animate({opacity: 0}, 600);
+    $(this).closest('.treasure-description__role').animate({opacity: 0}, 600);
+    $(this).closest('.treasure-description__details').animate({opacity: 0}, 600);
+    $(this).closest('.treasure-hero__button-container').animate({opacity: 0}, 600);
+    $(this).closest(treasureContainer).animate({height: "0", opacity: "0", width: "0"}, 800).removeClass('open').delay(1200);
+    $(this).closest(treasureContainer).css({display: "none"});
   })
 
   /* Checks to see if the data-order attribute of the display hero you clicked on is the same as the data-order attribute on a treasure display. 
@@ -30,20 +33,30 @@ $(function() {
     var hero = $(el);
     var heroData = hero.data('order');
 
-    treasure.each(function(index, obj){
+    $('.treasure-container').each(function(index, obj){
       if ($(obj).data('order') === heroData && $(obj).hasClass('open')) {
-        $(this).slideUp(600).removeClass('open');
-        hero.off('focus');
-        hero.off('hover');
+        $('.treasure-description__title').animate({opacity: 0}, 600);
+        $('.treasure-description__role').animate({opacity: 0}, 600);
+        $('.treasure-description__details').animate({opacity: 0}, 600);
+        $('.treasure-hero__button-container').animate({opacity: 0}, 600);
+        $(this).animate({height: "0", opacity: "0", width: "0"}, 1500).removeClass('open').delay(200);
+        $(this).css({display: "none"});
       } else if ($(obj).hasClass('open')) {
-        $(this).slideUp(600).removeClass('open');
-        $('.clicked').off('focus');
-        $('.clicked').off('hover');
-        $('.clicked').removeClass('clicked');
-      } else if ($(obj).data('order') === heroData) {
-        var $topPos = $(this).position.top;
-        
-        $(this).slideDown(600).addClass('open');
+        $('.treasure-description__title').animate({opacity: 0}, 600);
+        $('.treasure-description__role').animate({opacity: 0}, 600);
+        $('.treasure-description__details').animate({opacity: 0}, 600);
+        $('.treasure-hero__button-container').animate({opacity: 0}, 600);
+        $(this).animate({height: "0", opacity: "0", width: "0"}, 800).removeClass('open').delay(200);
+        $(this).css({display: "none"});
+      } else if ($(obj).data('order') === heroData) {    
+        $(this).css({display: "inline-block"}).animate({height: "100%", opacity: "1", width: "100%"}).addClass('open').delay(800);
+        $('.treasure-description__title').animate({opacity: 1}, 600);
+        $('.treasure-description__role').animate({opacity: 1}, 600);
+        $('.treasure-description__details').animate({opacity: 1}, 600);
+        $('.treasure-hero__button-container').animate({opacity: 1}, 600).delay(600);
+
+        var $posTop = $(hero).position().top;
+        $('body').animate({scrollTop: $posTop - 100}, 600);
       }
     });
   }

@@ -1,20 +1,29 @@
 <div class="treasure-container" data-order="8">
-  <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) center center/110%">
-    <img src="../img/close-button.png" alt="close item details" class="close-button">
-  </div>
-  <div class="treasure-description-container">
-    <div class="description-head">
+  <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) no-repeat center top;">
+    <div class="treasure-description-container">
       <h1 class="treasure-description__title">Parallax Boxers</h1>
-      <a class="treasure-description__link" href="TODO" target="_blank">Visit Site</a>
+      <h2 class="treasure-description__role">Front-End Engineer</h2>
+      <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link" href="http://www.thejoetoscanoexperiment.com" target="_blank">Visit Site</a>
+        <span class="close-button">Close</span>
+      </div>
     </div>
-    <h2 class="treasure-description__role">Front-End Engineer</h2>
-    <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
-    </p>
   </div>
 </div>
 <div class="treasure-container" data-order="9">
-  <div class="treasure-hero" style="background: url(img/work/3d-printing-treasure-hero.png) center center/110%">
-    <img src="../img/close-button.png" alt="close item details" class="close-button">
+  <div class="treasure-hero" style="background: url(img/work/3d-printing-treasure-hero.png) no-repeat center top/105%;">
+    <div class="treasure-description-container">
+      <h1 class="treasure-description__title"></h1>
+      <h2 class="treasure-description__role"></h2>
+      <p class="treasure-description__details">
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link" href="TODO" target="_blank">Visit Site</a>
+        <span class="close-button">Close</span>
+      </div>
+    </div>
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -33,8 +42,17 @@
   </div>
 </div>
 <div class="treasure-container" data-order="10">
-  <div class="treasure-hero" style="background: url(img/work/black-white-treasure-hero.png) center center/110%">
-    <img src="../img/close-button.png" alt="close item details" class="close-button">
+  <div class="treasure-hero" style="background: url(img/work/black-white-treasure-hero.png) no-repeat center top/105%;">
+    <div class="treasure-description-container">
+      <h1 class="treasure-description__title"></h1>
+      <h2 class="treasure-description__role"></h2>
+      <p class="treasure-description__details">
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link" href="TODO" target="_blank">Visit Site</a>
+        <span class="close-button">Close</span>
+      </div>
+    </div>
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
@@ -50,8 +68,17 @@
   </div>
 </div>
 <div class="treasure-container" data-order="11">
-  <div class="treasure-hero" style="background: url(img/work/tiger-art-treasure-hero.png) center center/110%">
-    <img src="../img/close-button.png" alt="close item details" class="close-button">
+  <div class="treasure-hero" style="background: url(img/work/tiger-art-treasure-hero.png) no-repeat center top/105%;">
+    <div class="treasure-description-container">
+      <h1 class="treasure-description__title"></h1>
+      <h2 class="treasure-description__role"></h2>
+      <p class="treasure-description__details">
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link" href="TODO" target="_blank">Visit Site</a>
+        <span class="close-button">Close</span>
+      </div>
+    </div>
   </div>
   <div class="treasure-description-container">
     <div class="description-head">
