@@ -13,7 +13,7 @@ $(function() {
     }
 
     treasureKey(hero);
-  })
+  });
 
   closeButton.click(function() {
     $(this).closest('.treasure-description__title').animate({opacity: 0}, 600);
@@ -53,11 +53,8 @@ $(function() {
         $('.treasure-description__title').animate({opacity: 1}, 600);
         $('.treasure-description__role').animate({opacity: 1}, 600);
         $('.treasure-description__details').animate({opacity: 1}, 600);
-        $('.treasure-hero__button-container').animate({opacity: 1}, 600).delay(600);
-
-        var $posTop = $(hero).position().top;
-        $('body').animate({scrollTop: $posTop - 100}, 600);
+        $('.treasure-hero__button-container').animate({opacity: 1}, 600);
       }
-    });
+    })
   }
 })
