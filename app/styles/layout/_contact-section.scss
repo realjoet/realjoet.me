@@ -31,27 +31,42 @@
   }
 
   #mc-embed-cta {
-    font-size: 24px;
+    font-size: 4vw;
     font-weight: 300;
-    line-height: 31px;
+    line-height: 23px;
     padding: 0 0 5% 0;
+
+    @media (min-width: $break-one) {
+      font-size: 1.8rem;
+      line-height: 23px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 2.4rem;
+      line-height: 31px;
+    }
   }
 
-  input {
-    border-radius: 3px;
+  #mc_embed_signup_scroll {
+    box-shadow: 1px 1px 4px rgba($base-grey, 1);
+    padding: 40px 60px;
+  }
+
+  #mc_embed_signup input {
+    border: none;
+    border-bottom: 1px solid $base-grey;
     font-weight: 200;
-    color: #00A297; 
+    color: $base-blue; 
     font-size: 1.5rem;
     margin: 2% 0;
-    padding: 2%;
+    padding: 2% 0;
     width: 100%;
   }
 
-  input:focus {
-    background-color: $base-blue;
-    color: $base-white; 
+  #mc_embed_signup input:focus {
+    border-bottom: 2px solid $base-blue; 
     font-weight: 400;
-    outline-color: unset;
+    outline: none;
   }
 
   input.button#mc-embedded-subscribe {
@@ -60,24 +75,44 @@
     box-shadow: 1px 1px 4px rgba($base-grey, 1);
     color: $base-white;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 4vw;
+    font-weight: 500;
     height: auto;
     padding: 10px 15px;
-    position: relative;
-      right: 1.3%;
     text-decoration: none;
     transition: all .4s;
+    width: auto;
 
     &:hover {
       box-shadow: 2px 2px 8px rgba($base-grey, 1);
       transform: scale(1.05);
     }
+
+    @media (min-width: $break-one) {
+      font-size: 1.8rem;
+      line-height: 23px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 2.4rem;
+      line-height: 31px;
+    }
   }
 
   div.mc-field-group label, div.mc-field-group strong {
     color: $base-grey;
-    font-size: 24px;
+    font-size: 4vw;
     font-weight: 300;
+
+    @media (min-width: $break-one) {
+      font-size: 1.2rem;
+      line-height: 23px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 1.8rem;
+      line-height: 31px;
+    }
   }
 
   div.mc-field-group.input-group label {

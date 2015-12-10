@@ -1,3 +1,17 @@
+@mixin animate($animation-name, $length, $timing, $iterations) {
+  -webkit-animation: $animation-name $length $timing $iterations;
+  -moz-animation:    $animation-name $length $timing $iterations;
+  -o-animation:      $animation-name $length $timing $iterations;
+  animation:         $animation-name $length $timing $iterations;
+}
+
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @mixin keyframe($animation-name) {
   @-webkit-keyframes #{$animation-name} {
     @content;
@@ -11,11 +25,4 @@
   @keyframes #{$animation-name} {
     @content;
   }
-}
-
-@mixin animate($animation-name, $length, $timing, $iterations) {
-  -webkit-animation: $animation-name $length $timing $iterations;
-  -moz-animation:    $animation-name $length $timing $iterations;
-  -o-animation:      $animation-name $length $timing $iterations;
-  animation:         $animation-name $length $timing $iterations;
 }

@@ -19,7 +19,7 @@ time, mark, audio, video {
   box-sizing: border-box;
   font: inherit;
   font-family: "Roboto", "Avenir", "Helvetica", "sans-serif";
-  font-size: 100%;
+  font-size: 62.5%;
   margin: 0;
   padding: 0;
   vertical-align: baseline; }
@@ -68,7 +68,7 @@ a {
   transition: all .4s; }
   .button--blue:hover {
     background: rgba(30, 166, 218, 0.2); }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .button--blue {
       font-size: 18px; } }
   @media (min-width: 1280px) {
@@ -80,7 +80,7 @@ a {
   background-size: 100%;
   height: 230px;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .masthead-background-image {
       height: 576px; } }
 
@@ -91,7 +91,7 @@ a {
   height: 230px;
   position: relative;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .masthead-container {
       height: 576px; } }
 
@@ -103,7 +103,7 @@ a {
   order: 1;
   padding: 25px 0;
   width: 80%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .social-links {
       width: 60%; } }
 
@@ -119,7 +119,7 @@ a {
     transform: scale(1.05); }
   .social-link#instagram-link {
     background: url("../img/social/instagram-logo--35.png") no-repeat center/100%; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .social-link#instagram-link {
         background: url("../img/social/instagram-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
@@ -127,7 +127,7 @@ a {
         background: url("../img/social/instagram-logo--60.png") no-repeat center/100%; } }
   .social-link#twitter-link {
     background: url("../img/social/twitter-logo--35.png") no-repeat center/100%; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .social-link#twitter-link {
         background: url("../img/social/twitter-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
@@ -135,7 +135,7 @@ a {
         background: url("../img/social/twitter-logo--60.png") no-repeat center/100%; } }
   .social-link#medium-link {
     background: url("../img/social/medium-logo--35.png") no-repeat center/100%; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .social-link#medium-link {
         background: url("../img/social/medium-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
@@ -143,7 +143,7 @@ a {
         background: url("../img/social/medium-logo--60.png") no-repeat center/100%; } }
   .social-link#github-link {
     background: url("../img/social/github-logo--35.png") no-repeat center/100%; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .social-link#github-link {
         background: url("../img/social/github-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
@@ -151,7 +151,7 @@ a {
         background: url("../img/social/github-logo--60.png") no-repeat center/100%; } }
   .social-link#linkedin-link {
     background: url("../img/social/linkedin-logo--35.png") no-repeat center/100%; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .social-link#linkedin-link {
         background: url("../img/social/linkedin-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
@@ -163,29 +163,28 @@ a {
   position: absolute;
   top: 380px;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .statement-container {
       order: 2;
       position: initial; } }
 
 .statement {
   color: #303030;
-  font-size: 16px;
+  font-size: 4vw;
   font-weight: 300;
   line-height: 23px;
   margin: 0 auto;
   padding: 3% 0;
   width: 70%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .statement {
       color: #FFF;
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 1.8rem;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       width: 60%; } }
   @media (min-width: 1280px) {
     .statement {
-      font-size: 24px;
+      font-size: 2.4rem;
       line-height: 31px;
       padding: 0; } }
 
@@ -196,7 +195,7 @@ a {
   position: absolute;
   top: 110px;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .personal-info-container {
       flex-flow: row wrap;
       order: 3;
@@ -210,7 +209,7 @@ a {
   margin: 0 auto;
   padding: 5px;
   width: 182px; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .image-container {
       margin: 0; } }
   @media (min-width: 1280px) {
@@ -224,7 +223,7 @@ a {
   height: 200px;
   margin: 0 auto;
   width: 200px; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .personal-image {
       margin: 0; } }
   @media (min-width: 1280px) {
@@ -236,7 +235,7 @@ a {
   margin: 0 auto;
   position: relative;
   top: 20px; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .personal-info-details {
       margin: 0;
       padding: 45px 0 0 25px;
@@ -247,31 +246,33 @@ a {
 
 .personal-info-details__name {
   color: #303030;
-  font-size: 36px;
+  font-size: 8vw;
   font-weight: 700;
   margin-bottom: 8px;
   text-align: center; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .personal-info-details__name {
       color: #FFF;
+      font-size: 3.6rem;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
   @media (min-width: 1280px) {
     .personal-info-details__name {
-      font-size: 48px; } }
+      font-size: 4.8rem; } }
 
 .personal-info-details__title {
   color: #303030;
-  font-size: 24px;
+  font-size: 5vw;
   text-align: center; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .personal-info-details__title {
       color: #FFF;
+      font-size: 2.4rem;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
   @media (min-width: 1280px) {
     .personal-info-details__title {
-      font-size: 28px; } }
+      font-size: 2.8rem; } }
 
 .display-section__headline {
   color: #1EA6DA;
@@ -287,15 +288,12 @@ a {
       width: 96%; } }
 
 .display-section-container {
-  position: relative;
-  top: 420px;
+  position: absolute;
+  top: 115%;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .display-section-container {
-      top: 55px; } }
-  @media (min-width: 1280px) {
-    .display-section-container {
-      top: 120px; } }
+      top: 100%; } }
 
 .display-section--build,
 .display-section--write,
@@ -307,7 +305,7 @@ a {
   margin: 0 auto;
   position: relative;
   width: 86%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .display-section--build,
     .display-section--write,
     .display-section--play {
@@ -337,7 +335,7 @@ a {
   .display-section__content-hero:hover {
     outline: 4px solid #40C4FF;
     outline-offset: 10px; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .display-section__content-hero {
       height: 20vw;
       width: 20vw; } }
@@ -360,23 +358,10 @@ a {
         font-weight: 700;
         display: inline-block;
         transition: all .4s; }
-        .display-section__content-hero .hero-cover:hover .hero-cover__target .vertical {
-          border: 1px solid #1EA6DA;
-          display: inline-block;
-          height: 26vw;
-          width: 13vw; }
-        .display-section__content-hero .hero-cover:hover .hero-cover__target .horizontal {
-          align-self: flex-start;
-          border: 1px solid #1EA6DA;
-          display: inline-block;
-          height: 26vw;
-          width: 13vw; }
-    @media (min-width: 1028px) {
+    @media (min-width: 786px) {
       .display-section__content-hero .hero-cover {
         height: 20vw;
         width: 20vw; } }
-  .display-section__content-hero .hero-cover__target {
-    color: transparent; }
 
 .treasure-container {
   display: none;
@@ -391,15 +376,18 @@ a {
 .treasure-hero {
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 150%;
   box-shadow: 2px 2px 8px #303030;
   display: flex;
   align-items: flex-start;
   height: auto;
   margin-bottom: 2%;
   padding-top: 250px;
-  width: 100%; }
-  @media (min-width: 1028px) {
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (min-width: 786px) {
     .treasure-hero {
       background-size: 130%;
       padding-top: 350px; } }
@@ -412,7 +400,7 @@ a {
   background: #FFF;
   padding: 15px 30px 25px;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .treasure-description-container {
       padding: 20px 50px 40px; } }
   @media (min-width: 1280px) {
@@ -439,7 +427,7 @@ a {
   padding-bottom: 15px;
   text-transform: uppercase;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .treasure-description__role {
       font-size: 24px; } }
   @media (min-width: 1280px) {
@@ -453,7 +441,7 @@ a {
   line-height: 23px;
   opacity: 0;
   width: 100%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .treasure-description__details {
       font-size: 18px;
       line-height: 23px; } }
@@ -483,7 +471,7 @@ a {
   transition: all .4s; }
   .treasure-description__link:hover {
     background: rgba(30, 166, 218, 0.2); }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .treasure-description__link {
       font-size: 18px; } }
   @media (min-width: 1280px) {
@@ -503,7 +491,7 @@ a {
   width: auto; }
   .close-button:hover {
     background: rgba(244, 67, 54, 0.2); }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .close-button {
       font-size: 18px; } }
   @media (min-width: 1280px) {
@@ -515,7 +503,7 @@ a {
   flex-flow: row wrap;
   margin: 0 auto;
   width: 86%; }
-  @media (min-width: 1028px) {
+  @media (min-width: 786px) {
     .display-section--contact {
       bottom: 80px;
       width: 89%; } }
@@ -532,43 +520,70 @@ a {
     .display-section--contact #mc_embed_signup .asterisk--blue {
       color: #1EA6DA; }
   .display-section--contact #mc-embed-cta {
-    font-size: 24px;
+    font-size: 4vw;
     font-weight: 300;
-    line-height: 31px;
+    line-height: 23px;
     padding: 0 0 5% 0; }
-  .display-section--contact input {
-    border-radius: 3px;
+    @media (min-width: 786px) {
+      .display-section--contact #mc-embed-cta {
+        font-size: 1.8rem;
+        line-height: 23px; } }
+    @media (min-width: 1280px) {
+      .display-section--contact #mc-embed-cta {
+        font-size: 2.4rem;
+        line-height: 31px; } }
+  .display-section--contact #mc_embed_signup_scroll {
+    box-shadow: 1px 1px 4px #303030;
+    padding: 40px 60px; }
+  .display-section--contact #mc_embed_signup input {
+    border: none;
+    border-bottom: 1px solid #303030;
     font-weight: 200;
-    color: #00A297;
+    color: #1EA6DA;
     font-size: 1.5rem;
     margin: 2% 0;
-    padding: 2%;
+    padding: 2% 0;
     width: 100%; }
-  .display-section--contact input:focus {
-    background-color: #1EA6DA;
-    color: #FFF;
+  .display-section--contact #mc_embed_signup input:focus {
+    border-bottom: 2px solid #1EA6DA;
     font-weight: 400;
-    outline-color: unset; }
+    outline: none; }
   .display-section--contact input.button#mc-embedded-subscribe {
     background: #1EA6DA;
     border-radius: 0px;
     box-shadow: 1px 1px 4px #303030;
     color: #FFF;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 4vw;
+    font-weight: 500;
     height: auto;
     padding: 10px 15px;
-    position: relative;
-    right: 1.3%;
     text-decoration: none;
-    transition: all .4s; }
+    transition: all .4s;
+    width: auto; }
     .display-section--contact input.button#mc-embedded-subscribe:hover {
       box-shadow: 2px 2px 8px #303030;
       transform: scale(1.05); }
+    @media (min-width: 786px) {
+      .display-section--contact input.button#mc-embedded-subscribe {
+        font-size: 1.8rem;
+        line-height: 23px; } }
+    @media (min-width: 1280px) {
+      .display-section--contact input.button#mc-embedded-subscribe {
+        font-size: 2.4rem;
+        line-height: 31px; } }
   .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
     color: #303030;
-    font-size: 24px;
+    font-size: 4vw;
     font-weight: 300; }
+    @media (min-width: 786px) {
+      .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
+        font-size: 1.2rem;
+        line-height: 23px; } }
+    @media (min-width: 1280px) {
+      .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
+        font-size: 1.8rem;
+        line-height: 31px; } }
   .display-section--contact div.mc-field-group.input-group label {
     margin-left: 15px; }
   .display-section--contact .lets-chat--text {
@@ -584,12 +599,9 @@ a {
     margin: 0 0 8%;
     width: 80%; }
 
-@media (max-width: 786px) {
+@media (max-width: 600px) {
   .statement {
     padding: 7% 0; }
-
-  .display-section-container {
-    top: 570px; }
 
   .display-section--build,
   .display-section--write,

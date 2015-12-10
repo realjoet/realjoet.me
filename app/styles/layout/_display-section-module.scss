@@ -15,16 +15,12 @@
 }
 
 .display-section-container {
-  position: relative;
-  top: 420px;
+  position: absolute;
+  top: 115%;
   width: 100%;
 
   @media (min-width: $break-one) {
-    top: 55px;
-  }
-
-  @media (min-width: $break-two) {
-    top: 120px;
+    top: 100%;
   }
 }
 
@@ -72,7 +68,6 @@
     // outline: 4px solid lighten($base-blue, 22%);
     outline: 4px solid #40C4FF;
     outline-offset: 10px;
-
   }
 
   @media (min-width: $break-one) {
@@ -102,21 +97,6 @@
         font-weight: 700;
         display: inline-block;
         transition: all .4s;
-
-        .vertical {
-          border: 1px solid $base-blue;
-          display: inline-block;
-          height: 26vw;
-          width: 13vw;
-        }
-
-        .horizontal {
-          align-self: flex-start;
-          border: 1px solid $base-blue;
-          display: inline-block;
-          height: 26vw;
-          width: 13vw;
-        }
       }
     }
 
@@ -124,9 +104,5 @@
       height: 20vw;
       width: 20vw;
     }
-  }
-
-  .hero-cover__target {
-    color: transparent;
   }
 }
