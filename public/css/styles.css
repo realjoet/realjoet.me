@@ -325,43 +325,44 @@ a {
 
 .display-section__content-hero {
   background: #303030;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   box-shadow: 1px 1px 4px #303030;
   display: inline-block;
   float: left;
   height: 26vw;
   margin: 0 0 2% 2%;
-  transition: all .4s;
+  transition: all 5s cubic-bezier(0.1, 0.57, 0.1, 1);
   width: 26vw; }
-  .display-section__content-hero:hover {
-    outline: 4px solid #40C4FF;
-    outline-offset: 10px; }
   @media (min-width: 786px) {
     .display-section__content-hero {
       height: 20vw;
       width: 20vw; } }
+  .display-section__content-hero:hover {
+    background-size: 120%; }
   .display-section__content-hero .hero-cover {
     background: #303030;
+    color: #FFF;
     display: flex;
     align-items: center;
     flex-flow: column-wrap;
     justify-content: center;
+    font-size: 3.6rem;
+    font-weight: 700;
     height: 26vw;
-    transition: all .4s;
+    text-align: center;
+    transition: all .6s;
     width: 26vw; }
     .display-section__content-hero .hero-cover:hover {
-      background: rgba(24, 132, 173, 0.9); }
-      .display-section__content-hero .hero-cover:hover .hero-cover__target {
-        color: #40C4FF;
-        display: flex;
-        flex-flow: row wrap;
-        font-size: 18px;
-        font-weight: 700;
-        display: inline-block;
-        transition: all .4s; }
+      background: rgba(23, 23, 23, 0.8); }
     @media (min-width: 786px) {
       .display-section__content-hero .hero-cover {
         height: 20vw;
         width: 20vw; } }
+    .display-section__content-hero .hero-cover span {
+      margin: 0 auto;
+      width: 70%; }
 
 .treasure-container {
   display: none;

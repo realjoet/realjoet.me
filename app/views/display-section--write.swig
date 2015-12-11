@@ -63,23 +63,23 @@
     </div>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="4" style="background: url(img/work/atomic-design-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="4" style="background-image: url(img/work/atomic-design-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>The Unicorn Workflow</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="5" style="background: url(img/work/meaning-of-learning-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="5" style="background-image: url(img/work/meaning-of-learning-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>What Does It Mean To Learn?</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="6" style="background: url(img/work/end-of-writing-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="6" style="background-image: url(img/work/end-of-writing-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>The End of Writing is Near</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="7" style="background: url(img/work/limitless-comm-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="7" style="background-image: url(img/work/limitless-comm-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>An Era of Limitless Reach</span>
   </div>
 </div>

@@ -1,7 +1,7 @@
 <div class="treasure-container" data-order="8">
   <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) no-repeat center top;">
     <div class="treasure-description-container">
-      <h1 class="treasure-description__title">Parallax Boxers</h1>
+      <h1 class="treasure-description__title">Parallax Boxing</h1>
       <h2 class="treasure-description__role">Front-End Engineer</h2>
       <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
       </p>
@@ -63,23 +63,23 @@
     </div>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="8" style="background: url(img/work/parallax-boxer-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="8" style="background-image: url(img/work/parallax-boxer-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>Parallax Boxing</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="9" style="background: url(img/work/3d-printing-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="9" style="background-image: url(img/work/3d-printing-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>Plantar Fasciitis Treatment Ball</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="10" style="background: url(img/work/black-white-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="10" style="background-image: url(img/work/black-white-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>Black & White Illustrations</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="11" style="background: url(img/work/tiger-art-hero.png) center center/100%">
+<div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/tiger-art-hero.png)">
   <div class="hero-cover">
-    <span></span>
+    <span>Color Changed Tigers</span>
   </div>
 </div>

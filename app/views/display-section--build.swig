@@ -52,22 +52,19 @@
   </div>
 </div>
 <div class="display-section__hero-buttons clearfix">
-  <div class="display-section__content-hero" data-order="1" style="background: url(img/work/spiffly-hero.png) center center/100%">
+  <div class="display-section__content-hero" data-order="1" style="background-image: url(img/work/spiffly-hero.png)">
     <div class="hero-cover">
-      <span>
-        <span class="vertical"></span>
-        <span class="horizontal"></span>
-      </span>
+      <span>Spiffly.is</span>
     </div>
   </div>
-  <div class="display-section__content-hero" data-order="2" style="background: url(img/work/fridays-hero.png) center center/100%">
+  <div class="display-section__content-hero" data-order="2" style="background-image: url(img/work/fridays-hero.png)">
     <div class="hero-cover">
-      <span></span>
+      <span>America's Next App</span>
     </div>
   </div>
-  <div class="display-section__content-hero" data-order="3" style="background: url(img/work/rosie-hero.png) center center/100%">
+  <div class="display-section__content-hero" data-order="3" style="background-image: url(img/work/rosie-hero.png)">
     <div class="hero-cover">
-      <span></span>
+      <span>Rosie</span>
     </div>
   </div>
 </div>
