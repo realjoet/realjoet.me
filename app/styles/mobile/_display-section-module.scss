@@ -8,15 +8,6 @@
   height: 82vw;
   width: 82vw;
 
-  // No hover state, using Modernizer to animate on mobile. Hover state disables normal hover animation while .clicked handles mobile animation.
-  &:hover {
-    outline: none;
-
-    .hero-cover {
-      opacity: 0;
-    }
-  }
-
   .clicked {
     box-shadow: 2px 2px 8px rgba($base-grey, 1);
     transform: scale(1.05);

@@ -62,7 +62,8 @@
   float: left;
   height: 26vw;
   margin: 0 0 2% 2%;
-  transition: all 5s cubic-bezier(0.1, 0.57, 0.1, 1);
+  // transition: all .3s;
+  transition: background-size 5s cubic-bezier(0.1, 0.57, 0.1, 1);
   width: 26vw;
 
   @media (min-width: $break-one) {
@@ -85,7 +86,8 @@
     font-weight: 700;
     height: 26vw;
     text-align: center;
-    transition: all .6s;
+    transition: all 0;
+    transition: background .6s;
     width: 26vw;
 
     &:hover {
