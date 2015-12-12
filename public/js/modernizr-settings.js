@@ -6,7 +6,7 @@ $(function() {
 
     $('.display-section__content-hero').addClass('touch');
 
-    $('.display-section-container').css({"top": $statementPos.top + $statementHeight + 50});
+    $('.display-section-container').css({"top": $statementPos.top + $statementHeight + 25});
   } else {
     $('.display-section__content-hero').removeClass('touch');
   }
