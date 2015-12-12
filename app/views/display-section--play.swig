@@ -6,8 +6,8 @@
       <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="http://www.thejoetoscanoexperiment.com" target="_blank">Visit Site</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="http://www.thejoetoscanoexperiment.com" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -26,8 +26,8 @@
       Being a trainer myself, I immediately looked for alternatives. There had to be some combination that dug deeper and also provided the cold therapy. But there weren't. So I made one.
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="https://medium.com/re-write/3d-printing-will-cause-an-industrial-revolution-8494c571ba75" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/3d-printing-will-cause-an-industrial-revolution-8494c571ba75" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -43,8 +43,8 @@
       What can you do with Black & White only? More than you think.
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="https://www.behance.net/gallery/20037697/B-W-Illustrations" target="_blank">Visit Site</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://www.behance.net/gallery/20037697/B-W-Illustrations" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -57,8 +57,8 @@
       <p class="treasure-description__details">I've always loved tigers. If I could have an exotic pet, it'd be a tiger or a kangaroo.
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="https://www.behance.net/gallery/20421743/Color-Changed-Tigers" target="_blank">Visit Site</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://www.behance.net/gallery/20421743/Color-Changed-Tigers" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>

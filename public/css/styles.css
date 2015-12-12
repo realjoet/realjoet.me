@@ -61,23 +61,34 @@ span.the-hunt {
   display: table;
   clear: both; }
 
-.button--blue {
-  color: #1EA6DA;
+.button, .button--blue, .button--red {
+  box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.6);
+  color: #FFF;
   cursor: pointer;
-  float: right;
-  font-size: 16px;
+  font-family: 'Bangers', cursive;
+  font-size: 4vw;
+  font-weight: 500;
+  letter-spacing: 1.5px;
   margin: 6px 0;
-  padding: 10px 15px;
+  padding: 15px 20px;
   text-decoration: none;
-  transition: all .4s; }
-  .button--blue:hover {
-    background: rgba(30, 166, 218, 0.2); }
+  transition: all .6s; }
+  .button:hover, .button--blue:hover, .button--red:hover {
+    box-shadow: 2px 2px 8px rgba(48, 48, 48, 0.8);
+    transform: scale(1.05); }
   @media (min-width: 786px) {
-    .button--blue {
-      font-size: 18px; } }
+    .button, .button--blue, .button--red {
+      font-size: 1.8rem; } }
   @media (min-width: 1280px) {
-    .button--blue {
-      font-size: 24px; } }
+    .button, .button--blue, .button--red {
+      font-size: 2.4rem; } }
+
+.button--blue {
+  background: #1EA6DA; }
+
+.button--red {
+  background: #F44336;
+  vertical-align: middle; }
 
 .masthead-background-image {
   background: url("../img/mountain-background.jpeg") no-repeat 50% 20%;
@@ -165,7 +176,7 @@ span.the-hunt {
 .statement-container {
   order: 3;
   position: absolute;
-  top: 380px;
+  top: 170%;
   width: 100%; }
   @media (min-width: 786px) {
     .statement-container {
@@ -174,7 +185,7 @@ span.the-hunt {
 
 .statement {
   color: #303030;
-  font-size: 4vw;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 23px;
   margin: 0 auto;
@@ -250,14 +261,13 @@ span.the-hunt {
 
 .personal-info-details__name {
   color: #303030;
-  font-size: 8vw;
+  font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 8px;
   text-align: center; }
   @media (min-width: 786px) {
     .personal-info-details__name {
       color: #FFF;
-      font-size: 3.6rem;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
   @media (min-width: 1280px) {
@@ -266,12 +276,11 @@ span.the-hunt {
 
 .personal-info-details__title {
   color: #303030;
-  font-size: 5vw;
+  font-size: 2.4rem;
   text-align: center; }
   @media (min-width: 786px) {
     .personal-info-details__title {
       color: #FFF;
-      font-size: 2.4rem;
       text-align: left;
       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); } }
   @media (min-width: 1280px) {
@@ -295,11 +304,11 @@ span.the-hunt {
 
 .display-section-container {
   position: absolute;
-  top: 115%;
+  top: 120%;
   width: 100%; }
   @media (min-width: 786px) {
     .display-section-container {
-      top: 100%; } }
+      top: 110%; } }
 
 .display-section--build,
 .display-section--write,
@@ -367,11 +376,16 @@ span.the-hunt {
         height: 20vw;
         width: 20vw; } }
     .display-section__content-hero .hero-cover span {
-      font-size: 1.8vw;
-      font-style: italic;
+      font-size: 2.4rem;
       font-weight: 300;
       margin: 0 auto;
       width: 70%; }
+    @media (min-width: 786px) {
+      .display-section__content-hero .hero-cover {
+        font-size: 1.8rem; } }
+    @media (min-width: 1280px) {
+      .display-section__content-hero .hero-cover {
+        font-size: 2.4rem; } }
 
 .treasure-container {
   display: none;
@@ -386,7 +400,7 @@ span.the-hunt {
 .treasure-hero {
   background-position: center top;
   background-repeat: no-repeat;
-  box-shadow: 2px 2px 8px #303030;
+  box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.6);
   display: flex;
   align-items: flex-start;
   height: auto;
@@ -471,42 +485,9 @@ span.the-hunt {
   padding: 40px 30px 0; }
 
 .treasure-description__link {
-  color: #1EA6DA;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 6px 20px 0 0;
-  padding: 15px 20px;
+  margin-right: 20px;
   text-decoration: none;
   transition: all .4s; }
-  .treasure-description__link:hover {
-    background: rgba(30, 166, 218, 0.2); }
-  @media (min-width: 786px) {
-    .treasure-description__link {
-      font-size: 18px; } }
-  @media (min-width: 1280px) {
-    .treasure-description__link {
-      font-size: 24px; } }
-
-.close-button {
-  color: #F44336;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 6px 0;
-  padding: 15px 20px;
-  text-decoration: none;
-  transition: all .4s;
-  width: auto; }
-  .close-button:hover {
-    background: rgba(244, 67, 54, 0.2); }
-  @media (min-width: 786px) {
-    .close-button {
-      font-size: 18px; } }
-  @media (min-width: 1280px) {
-    .close-button {
-      font-size: 24px; } }
 
 .display-section--contact {
   display: flex;
@@ -530,7 +511,7 @@ span.the-hunt {
     .display-section--contact #mc_embed_signup .asterisk--blue {
       color: #1EA6DA; }
   .display-section--contact #mc-embed-cta {
-    font-size: 4vw;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 23px;
     padding: 0 0 5% 0; }
@@ -543,58 +524,54 @@ span.the-hunt {
         font-size: 2.4rem;
         line-height: 31px; } }
   .display-section--contact #mc_embed_signup_scroll {
-    box-shadow: 1px 1px 4px #303030;
+    box-shadow: 1px 1px 8px rgba(48, 48, 48, 0.6);
     padding: 40px 60px; }
   .display-section--contact #mc_embed_signup input {
     border: none;
     border-bottom: 1px solid #303030;
     font-weight: 200;
     color: #1EA6DA;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 2% 0;
     padding: 2% 0;
     width: 100%; }
+    @media (min-width: 786px) {
+      .display-section--contact #mc_embed_signup input {
+        font-size: 1.8rem;
+        line-height: 23px; } }
+    @media (min-width: 1280px) {
+      .display-section--contact #mc_embed_signup input {
+        font-size: 2.4rem;
+        line-height: 31px; } }
   .display-section--contact #mc_embed_signup input:focus {
     border-bottom: 2px solid #1EA6DA;
     font-weight: 400;
     outline: none; }
-  .display-section--contact input.button#mc-embedded-subscribe {
-    background: #1EA6DA;
+  .display-section--contact input.button#mc-embedded-subscribe, .display-section--contact input#mc-embedded-subscribe.button--blue, .display-section--contact input#mc-embedded-subscribe.button--red {
     border-radius: 0px;
-    box-shadow: 1px 1px 4px #303030;
     color: #FFF;
     cursor: pointer;
-    font-family: 'Bangers', cursive;
-    font-size: 4vw;
-    font-weight: 500;
+    font-size: 1.6rem;
     height: auto;
-    letter-spacing: 1px;
-    padding: 10px 15px;
-    text-decoration: none;
-    transition: all .4s;
+    padding: 15px 20px;
     width: auto; }
-    .display-section--contact input.button#mc-embedded-subscribe:hover {
-      box-shadow: 2px 2px 8px #303030;
-      transform: scale(1.05); }
     @media (min-width: 786px) {
-      .display-section--contact input.button#mc-embedded-subscribe {
-        font-size: 1.8rem;
-        line-height: 23px; } }
+      .display-section--contact input.button#mc-embedded-subscribe, .display-section--contact input#mc-embedded-subscribe.button--blue, .display-section--contact input#mc-embedded-subscribe.button--red {
+        font-size: 1.8rem; } }
     @media (min-width: 1280px) {
-      .display-section--contact input.button#mc-embedded-subscribe {
-        font-size: 2.4rem;
-        line-height: 31px; } }
+      .display-section--contact input.button#mc-embedded-subscribe, .display-section--contact input#mc-embedded-subscribe.button--blue, .display-section--contact input#mc-embedded-subscribe.button--red {
+        font-size: 2.4rem; } }
   .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
     color: #303030;
-    font-size: 4vw;
+    font-size: 1.6rem;
     font-weight: 300; }
     @media (min-width: 786px) {
       .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         line-height: 23px; } }
     @media (min-width: 1280px) {
       .display-section--contact div.mc-field-group label, .display-section--contact div.mc-field-group strong {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         line-height: 31px; } }
   .display-section--contact div.mc-field-group.input-group label {
     margin-left: 15px; }
@@ -625,16 +602,12 @@ span.the-hunt {
   .display-section__content-hero {
     height: 82vw;
     width: 82vw; }
-    .display-section__content-hero .clicked {
-      box-shadow: 2px 2px 8px #303030;
+    .display-section__content-hero.touch {
+      box-shadow: 2px 2px 8px rgba(48, 48, 48, 0.8);
       transform: scale(1.05); }
     .display-section__content-hero .hero-cover {
       height: 82vw;
       width: 82vw; }
-    .display-section__content-hero .hero-cover__title {
-      color: #FFF;
-      font-size: 28px;
-      font-weight: 900; }
 
   .treasure-hero {
     background: #303030;

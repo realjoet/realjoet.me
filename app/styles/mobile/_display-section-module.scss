@@ -8,19 +8,13 @@
   height: 82vw;
   width: 82vw;
 
-  .clicked {
-    box-shadow: 2px 2px 8px rgba($base-grey, 1);
+  &.touch {
+    box-shadow: 2px 2px 8px rgba($base-grey, .8);
     transform: scale(1.05);
   }
 
   .hero-cover {
     height: 82vw;
     width: 82vw;
-  }
-
-  .hero-cover__title {
-    color: $base-white;
-    font-size: 28px;
-    font-weight: 900;
   }
 }

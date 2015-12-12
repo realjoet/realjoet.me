@@ -4,17 +4,17 @@
 <div id="mc_embed_signup">
 <form action="//realjoet.us12.list-manage.com/subscribe/post?u=c97cc3bd0015d447d4d930f4c&amp;id=e542dc22e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
   <p id="mc-embed-cta">
-    A few years ago I took a leap of faith and decided to relentlessly hunt down my dreams, regardless of anyone else's opinion.
+    A few years ago I took a leap of faith and decided to relentlessly hunt down my dreams, regardless of anyone's opinion.
     <br>
     <br>
     Since then I've completed BDW, one of the most accelerated designer/developer programs in the world. I've landed a full-time spot at Quick Left, one of the top software consultancies in CO. And I've started writing for InVision, one of the most popular design blogs in the world.
     <br>
     <br>
-    I have goals much bigger than what I've already accomplished, but day by day things are slowly coming together.
+    People tell me all the time I must feel so accomplished, but I feel like I've only scratched the surface.
     <br>
     <br>
     <br>
-    By signing up to join The Hunt you'll get access to the articles I write and assets I build to speed up my process before anyone else, along with articles that have helped me along the way.
+    By signing up to join <span class="the-hunt">The Hunt</span> you'll get access to the articles I write and assets I build to speed up my process before anyone else, along with articles that have helped me along the way.
     <br>
     <br>
     But this isn't a one-way street &#8212 we're in this together. Let me know what you would like to learn or how I can help you on your hunt, and I'll do everything I can to help you reach your goals. And I hope you do the same, for our community.
@@ -24,7 +24,7 @@
     <br>
     <br>
     <br>
-    Join The Hunt today.
+    Join <span class="the-hunt">The Hunt</span> today.
   </p>
   <div id="mc_embed_signup_scroll">
     <div class="mc-field-group">
@@ -51,7 +51,7 @@
       <div class="response" id="mce-success-response" style="display:none"></div>
     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c97cc3bd0015d447d4d930f4c_e542dc22e5" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Join The Hunt" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      <div class="clear"><input type="submit" value="Join The Hunt" name="subscribe" id="mc-embedded-subscribe" class="button--blue"></div>
     </div>
   </form>
   </div>

@@ -9,8 +9,8 @@
       I built the front-end of Spiffly.is, an e-commerce site, in less than 100 hours despite never having worked with Swig, Node.js or Sass before.
       </p>
       <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link" href="http://spiffly.is" target="_blank">Visit Site</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="http://spiffly.is" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -26,8 +26,8 @@
       The site was viewed and interacted with by millions of users across a variety of viewports.
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="http://www.tgifridays.com/americasnextapp" target="_blank">Visit Site</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="http://www.tgifridays.com/americasnextapp" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -45,8 +45,8 @@
       Stop counting numbers, start enjoying life.
       </p>
       <div class="treasure-hero__button-container">
-        <a class="treasure-description__link" href="https://medium.com/re-write/product-design-is-the-new-form-of-leadership-77368a535038" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/product-design-is-the-new-form-of-leadership-77368a535038" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>

@@ -13,7 +13,7 @@
 .treasure-hero {
   background-position: center top;
   background-repeat: no-repeat;
-  box-shadow: 2px 2px 8px rgba($base-grey, 1);
+  box-shadow: 1px 1px 8px rgba($base-grey, .6);
   display: flex;
     align-items: flex-start;
   height: auto;
@@ -111,49 +111,7 @@
 }
 
 .treasure-description__link {
-  color: $base-blue;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 6px 20px 0 0;
-  padding: 15px 20px;
+  margin-right: 20px;
   text-decoration: none;
   transition: all .4s;
-
-  &:hover {
-    background: rgba($base-blue, .2);
-  }
-
-  @media (min-width: $break-one) {
-    font-size: 18px;
-  }
-
-  @media (min-width: $break-two) {
-    font-size: 24px;
-  }
-}
-
-.close-button {
-  color: $base-red;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 6px 0;
-  padding: 15px 20px;
-  text-decoration: none;
-  transition: all .4s;
-  width: auto;
-
-  &:hover {
-    background: rgba($base-red, .2);
-  }
-
-  @media (min-width: $break-one) {
-    font-size: 18px;
-  }
-
-  @media (min-width: $break-two) {
-    font-size: 24px;
-  }
 }

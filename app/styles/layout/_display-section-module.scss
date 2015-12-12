@@ -18,11 +18,11 @@
 
 .display-section-container {
   position: absolute;
-  top: 115%;
+    top: 120%;
   width: 100%;
 
   @media (min-width: $break-one) {
-    top: 100%;
+    top: 110%;
   }
 }
 
@@ -101,11 +101,18 @@
     }
 
     span {
-      font-size: 1.8vw;
-      font-style: italic;
+      font-size: 2.4rem;
       font-weight: 300;
       margin: 0 auto;
       width: 70%;
+    }
+
+    @media (min-width: $break-one) {
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 2.4rem;
     }
   }
 }

@@ -1,7 +1,7 @@
 $(function() {
   var hero = $('.display-section__content-hero');
   var treasureContainer = $('.treasure-container');
-  var closeButton = $('.close-button');
+  var closeButton = $('.js-close-button');
 
   // Doesn't un-animate on mobile when you click the same hero if it's already been opened
   hero.click(function() {
@@ -49,7 +49,7 @@ $(function() {
         $(this).animate({height: "0", opacity: "0", width: "0"}, 800).removeClass('open').delay(200);
         $(this).css({display: "none"});
       } else if ($(obj).data('order') === heroData) {    
-        $(this).css({display: "inline-block"}).animate({height: "100%", opacity: "1", width: "100%"}).addClass('open').delay(800);
+        $(this).css({display: "inline-block"}).animate({height: "100%", opacity: "1", width: "92.5%"}).addClass('open').delay(800);
         $('.treasure-description__title').animate({opacity: 1}, 600);
         $('.treasure-description__role').animate({opacity: 1}, 600);
         $('.treasure-description__details').animate({opacity: 1}, 600);

@@ -31,7 +31,7 @@
   }
 
   #mc-embed-cta {
-    font-size: 4vw;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 23px;
     padding: 0 0 5% 0;
@@ -48,7 +48,7 @@
   }
 
   #mc_embed_signup_scroll {
-    box-shadow: 1px 1px 4px rgba($base-grey, 1);
+    box-shadow: 1px 1px 8px rgba($base-grey, .6);
     padding: 40px 60px;
   }
 
@@ -57,38 +57,10 @@
     border-bottom: 1px solid $base-grey;
     font-weight: 200;
     color: $base-blue; 
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 2% 0;
     padding: 2% 0;
     width: 100%;
-  }
-
-  #mc_embed_signup input:focus {
-    border-bottom: 2px solid $base-blue; 
-    font-weight: 400;
-    outline: none;
-  }
-
-  input.button#mc-embedded-subscribe {
-    background: $base-blue;
-    border-radius: 0px;
-    box-shadow: 1px 1px 4px rgba($base-grey, 1);
-    color: $base-white;
-    cursor: pointer;
-    font-family: 'Bangers', cursive;
-    font-size: 4vw;
-    font-weight: 500;
-    height: auto;
-    letter-spacing: 1px;
-    padding: 10px 15px;
-    text-decoration: none;
-    transition: all .4s;
-    width: auto;
-
-    &:hover {
-      box-shadow: 2px 2px 8px rgba($base-grey, 1);
-      transform: scale(1.05);
-    }
 
     @media (min-width: $break-one) {
       font-size: 1.8rem;
@@ -101,18 +73,42 @@
     }
   }
 
+  #mc_embed_signup input:focus {
+    border-bottom: 2px solid $base-blue; 
+    font-weight: 400;
+    outline: none;
+  }
+
+  input.button#mc-embedded-subscribe {
+    border-radius: 0px;
+    color: $base-white;
+    cursor: pointer;
+    font-size: 1.6rem;
+    height: auto;
+    padding: 15px 20px;
+    width: auto;
+
+    @media (min-width: $break-one) {
+      font-size: 1.8rem;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 2.4rem;
+    }
+  }
+
   div.mc-field-group label, div.mc-field-group strong {
     color: $base-grey;
-    font-size: 4vw;
+    font-size: 1.6rem;
     font-weight: 300;
 
     @media (min-width: $break-one) {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       line-height: 23px;
     }
 
     @media (min-width: $break-two) {
-      font-size: 1.8rem;
+      font-size: 2.4rem;
       line-height: 31px;
     }
   }

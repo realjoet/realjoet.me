@@ -113,7 +113,7 @@
 .statement-container {
   order: 3;
   position: absolute;
-  top: 380px;
+    top: 170%;
   width: 100%;
 
   @media (min-width: $break-one) {
@@ -124,7 +124,7 @@
 
 .statement {
   color: $base-grey;
-  font-size: 4vw;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 23px;
   margin: 0 auto;
@@ -150,7 +150,7 @@
   flex-flow: column;
   order: 2;
   position: absolute;
-  top: 110px;
+    top: 110px;
   width: 100%;
 
   @media (min-width: $break-one) {
@@ -199,7 +199,7 @@
 .personal-info-details {
   margin: 0 auto;
   position: relative;
-  top: 20px;
+    top: 20px;
 
   @media (min-width: $break-one) {
     margin: 0;
@@ -214,14 +214,13 @@
 
 .personal-info-details__name {
   color: $base-grey;
-  font-size: 8vw;
+  font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 8px;
   text-align: center;
 
   @media (min-width: $break-one) {
     color: $base-white;
-    font-size: 3.6rem;
     text-align: left;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
   }
@@ -233,12 +232,11 @@
 
 .personal-info-details__title {
   color: $base-grey;
-  font-size: 5vw;
+  font-size: 2.4rem;
   text-align: center;
 
   @media (min-width: $break-one) {
     color: $base-white;
-    font-size: 2.4rem;
     text-align: left;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
   }

@@ -9,8 +9,8 @@
       Atomic design isn’t about designing a single instance or page, it’s about designing with the big picture in mind — it’s about designing the core of the system.
       </p>
       <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link" href="https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -26,8 +26,8 @@
       But what does it actually mean to learn?
       </p>
       <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link" href="https://medium.com/re-write/what-does-it-mean-to-learn-7ceef274c080" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/what-does-it-mean-to-learn-7ceef274c080" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -40,8 +40,8 @@
       <p class="treasure-description__details">Evolution takes time. Some things change over night, some things take centuries, or even milleniums. And they say everything comes back in style eventually. I believe we are entering a time when written words once again won’t be necessary to explain ourselves.
       </p>
       <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link" href="https://medium.com/re-write/what-does-it-mean-to-learn-7ceef274c080#.21ejsez1k" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/what-does-it-mean-to-learn-7ceef274c080#.21ejsez1k" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>
@@ -57,8 +57,8 @@
       Instead of making a decision based on what our friends and family are doing, what we see happening around us at school or what happens during our weekend trip to town, we are making decisions based on what is popular on social media or in the mainstream media.
       </p>
       <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link" href="https://medium.com/re-write/social-influence-in-a-time-of-limitless-reach-db67a699850e" target="_blank">Read More</a>
-        <span class="close-button">Close</span>
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/social-influence-in-a-time-of-limitless-reach-db67a699850e" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
       </div>
     </div>
   </div>

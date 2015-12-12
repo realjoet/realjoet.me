@@ -1,22 +1,39 @@
-.button--blue {
-  color: $base-blue;
+.button {
+  box-shadow: 1px 1px 8px rgba($base-grey, .6);
+  color: $base-white;
   cursor: pointer;
-  float: right;
-  font-size: 16px;
+  font-family: 'Bangers', cursive;
+  font-size: 4vw;
+  font-weight: 500;
+  letter-spacing: 1.5px;
   margin: 6px 0;
-  padding: 10px 15px;
+  padding: 15px 20px;
   text-decoration: none;
-  transition: all .4s;
+  transition: all .6s;
 
   &:hover {
-    background: rgba($base-blue, .2);
+    box-shadow: 2px 2px 8px rgba($base-grey, .8);
+    transform: scale(1.05);
   }
 
   @media (min-width: $break-one) {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   @media (min-width: $break-two) {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
+}
+
+.button--blue {
+  @extend .button;
+
+  background: $base-blue;
+}
+
+.button--red {
+  @extend .button;
+
+  background: $base-red;
+  vertical-align: middle;
 }
