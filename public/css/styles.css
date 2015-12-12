@@ -604,7 +604,10 @@ span.the-hunt {
     width: 82vw; }
     .display-section__content-hero.touch:hover {
       box-shadow: 2px 2px 8px rgba(48, 48, 48, 0.8);
+      background-size: 100%;
       transform: scale(1.05); }
+    .display-section__content-hero.touch span {
+      opacity: 0; }
     .display-section__content-hero .hero-cover {
       height: 82vw;
       width: 82vw; }
