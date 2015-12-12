@@ -18,12 +18,7 @@
 
 .display-section-container {
   position: absolute;
-    top: 120%;
   width: 100%;
-
-  @media (min-width: $break-one) {
-    top: 110%;
-  }
 }
 
 .display-section--build, 

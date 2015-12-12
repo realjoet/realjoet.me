@@ -310,11 +310,7 @@ span.the-hunt {
 
 .display-section-container {
   position: absolute;
-  top: 120%;
   width: 100%; }
-  @media (min-width: 786px) {
-    .display-section-container {
-      top: 110%; } }
 
 .display-section--build,
 .display-section--write,
