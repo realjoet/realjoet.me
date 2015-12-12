@@ -10,7 +10,7 @@ function displaySectionPos() {
   if ($(window).width() < 786) {
     $('.display-section-container').css({"top": $statementPos.top + $statementHeight + 15});
   } else {
-    $('.display-section-container').css({"top": $mastheadPos.top + $mastheadHeight + 50});
+    $('.display-section-container').css({"top": $mastheadPos.top + $mastheadHeight + 150});
   }
 }
 
