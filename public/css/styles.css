@@ -529,6 +529,7 @@ span.the-hunt {
   .display-section--contact #mc_embed_signup input {
     border: none;
     border-bottom: 1px solid #303030;
+    border-radius: 0;
     font-weight: 200;
     color: #1EA6DA;
     font-size: 1.6rem;
