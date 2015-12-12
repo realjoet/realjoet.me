@@ -9,8 +9,11 @@
   width: 82vw;
 
   &.touch {
-    box-shadow: 2px 2px 8px rgba($base-grey, .8);
-    transform: scale(1.05);
+    
+    &:hover {
+      box-shadow: 2px 2px 8px rgba($base-grey, .8);
+      transform: scale(1.05);
+    }
   }
 
   .hero-cover {

@@ -602,7 +602,7 @@ span.the-hunt {
   .display-section__content-hero {
     height: 82vw;
     width: 82vw; }
-    .display-section__content-hero.touch {
+    .display-section__content-hero.touch:hover {
       box-shadow: 2px 2px 8px rgba(48, 48, 48, 0.8);
       transform: scale(1.05); }
     .display-section__content-hero .hero-cover {
@@ -615,6 +615,9 @@ span.the-hunt {
     background-repeat: no-repeat;
     background-size: 245%;
     padding-top: 250px; }
+
+  .treasure-hero__button-container {
+    padding: 40px 0 0; }
 
   .display-section--contact {
     padding-bottom: 50px; }
