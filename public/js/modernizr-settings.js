@@ -1,6 +1,6 @@
 $(function() {
   if (Modernizr.touch) {
-    var $statement = $('.statement');
+    var $statement = $('.statement-container');
     var $statementPos = $statement.position();
     var $statementHeight = $statement.outerHeight();
 
