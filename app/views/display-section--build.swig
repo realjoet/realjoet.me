@@ -59,7 +59,7 @@
   </div>
   <div class="display-section__content-hero" data-order="2" style="background-image: url(img/work/fridays-hero.png)">
     <div class="hero-cover">
-      <span>America's Next App</span>
+      <span>TGI Friday's</span>
     </div>
   </div>
   <div class="display-section__content-hero" data-order="3" style="background-image: url(img/work/rosie-hero.png)">

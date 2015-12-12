@@ -276,8 +276,10 @@ a {
 
 .display-section__headline {
   color: #1EA6DA;
+  font-family: 'Bangers', cursive;
   font-size: 25vw;
-  font-weight: 900;
+  font-weight: 700;
+  letter-spacing: 5px;
   margin: 0 auto;
   width: 90%; }
   @media (min-width: 1028px) {
@@ -333,7 +335,7 @@ a {
   float: left;
   height: 26vw;
   margin: 0 0 2% 2%;
-  transition: background-size 5s cubic-bezier(0.1, 0.57, 0.1, 1);
+  transition: background-size 5s cubic-bezier(0, 0.93, 0.51, 1);
   width: 26vw; }
   @media (min-width: 786px) {
     .display-section__content-hero {
@@ -349,7 +351,6 @@ a {
     flex-flow: column-wrap;
     justify-content: center;
     font-size: 3.6rem;
-    font-weight: 700;
     height: 26vw;
     text-align: center;
     transition: all 0;
@@ -362,6 +363,9 @@ a {
         height: 20vw;
         width: 20vw; } }
     .display-section__content-hero .hero-cover span {
+      font-size: 1.8vw;
+      font-style: italic;
+      font-weight: 300;
       margin: 0 auto;
       width: 70%; }
 
