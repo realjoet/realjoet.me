@@ -75,9 +75,11 @@
     box-shadow: 1px 1px 4px rgba($base-grey, 1);
     color: $base-white;
     cursor: pointer;
+    font-family: 'Bangers', cursive;
     font-size: 4vw;
     font-weight: 500;
     height: auto;
+    letter-spacing: 1px;
     padding: 10px 15px;
     text-decoration: none;
     transition: all .4s;
@@ -127,16 +129,18 @@
 
   .lets-chat--text {
     color: $base-grey;
-    font-size: 8vw;
+    font-size: 2.8rem;
     font-weight: 300;
-    margin: 8% 0 0;
+    margin: 8% 0 5px;
     width: 80%;
   }
 
   .lets-chat--email {
     color: $base-blue;
+    font-family: 'Bangers', cursive;
     font-size: 12vw;
-    font-weight: 900;
+    font-weight: 700;
+    letter-spacing: 3px;
     margin: 0 0 8%;
     width: 80%;
   }

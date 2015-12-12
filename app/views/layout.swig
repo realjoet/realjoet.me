@@ -9,9 +9,7 @@
   {# <meta property="og:image" content="http://graphics.myfavnews.com/images/logo-100x100.jpg" /> #}
   {# <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> #}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|Bangers' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/styles.css">
   {% if ENV_DEVELOPMENT %}
     <script src="http://localhost:35729/livereload.js"></script>
