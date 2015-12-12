@@ -55,6 +55,12 @@ a {
 span.the-hunt {
   font-family: 'Bangers', cursive;
   font-size: 2.4rem; }
+  @media (min-width: 786px) {
+    span.the-hunt {
+      font-size: 2.6rem; } }
+  @media (min-width: 1280px) {
+    span.the-hunt {
+      font-size: 3.2rem; } }
 
 .clearfix:after {
   content: "";
@@ -433,19 +439,19 @@ span.the-hunt {
 
 .treasure-description__title {
   color: #1EA6DA;
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 900;
   opacity: 0;
   padding: 30px 0 20px;
   float: left; }
   @media (min-width: 1280px) {
     .treasure-description__title {
-      font-size: 48px; } }
+      font-size: 4.8rem; } }
 
 .treasure-description__role {
   clear: both;
   float: left;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 300;
   opacity: 0;
   padding-bottom: 15px;
@@ -453,25 +459,25 @@ span.the-hunt {
   width: 100%; }
   @media (min-width: 786px) {
     .treasure-description__role {
-      font-size: 24px; } }
+      font-size: 2.4rem; } }
   @media (min-width: 1280px) {
     .treasure-description__role {
-      font-size: 28px; } }
+      font-size: 2.8rem; } }
 
 .treasure-description__details {
   clear: both;
   float: left;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 23px;
   opacity: 0;
   width: 100%; }
   @media (min-width: 786px) {
     .treasure-description__details {
-      font-size: 18px;
+      font-size: 1.8rem;
       line-height: 23px; } }
   @media (min-width: 1280px) {
     .treasure-description__details {
-      font-size: 24px;
+      font-size: 2.4rem;
       line-height: 31px; } }
 
 .treasure-hero__button-container {

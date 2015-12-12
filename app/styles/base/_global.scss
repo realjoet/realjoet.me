@@ -61,6 +61,14 @@ a {
 span.the-hunt {
   font-family: 'Bangers', cursive;
   font-size: 2.4rem;
+
+  @media (min-width: $break-one) {
+    font-size: 2.6rem;
+  }
+
+  @media (min-width: $break-two) {
+    font-size: 3.2rem;
+  }
 }
 
 .clearfix:after {
