@@ -611,6 +611,8 @@ span.the-hunt {
       transform: scale(1.05); }
       .display-section__content-hero.touch:hover span {
         opacity: 0; }
+      .display-section__content-hero.touch:hover .hero-cover {
+        opacity: 0; }
     .display-section__content-hero .hero-cover {
       height: 82vw;
       width: 82vw; }
