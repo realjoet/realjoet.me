@@ -4,6 +4,7 @@ var gulp = require('gulp'),
   livereload = require('gulp-livereload'),
   sass = require('gulp-ruby-sass');
 
+// Changed to pipe Sass from app directory
 gulp.task('sass', function () {
   return sass('./app/styles/*.scss')
     .pipe(gulp.dest('./public/css'))

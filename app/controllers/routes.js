@@ -22,3 +22,13 @@ router.get('/', function (req, res, next) {
     });
   });
 });
+
+/*  
+  TO SEND CUSTOM EMAILS TO EXTERNAL SOURCE
+  1. Create a form on your site 
+  2. Hit the express route 
+  3. Store your mailchimp api keys in your server configs (do not send them to the front end)
+  4. Have the express route send to mailchimp 
+
+  **you’ll probably be using the request node module, unless mailchimp has their own node module**
+*/

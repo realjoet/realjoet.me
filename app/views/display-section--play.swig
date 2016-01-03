@@ -1,4 +1,4 @@
-<div class="treasure-container" data-order="8">
+<div class="treasure-container" data-order="17">
   <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) no-repeat center top;">
     <div class="treasure-description-container">
       <h1 class="treasure-description__title">Parallax Boxing</h1>
@@ -12,7 +12,24 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="9">
+<div class="treasure-container" data-order="18">
+  <div class="treasure-hero" style="background: url(img/work/rosie-treasure-hero.png) no-repeat center top/105%;">
+    <div class="treasure-description-container">
+      <h1 class="treasure-description__title">Rosie</h1>
+      <h2 class="treasure-description__role">Designer & Engineer</h2>
+      <p class="treasure-description__details">Eating healthy is hard, especially when you don't understand the numbers. Rosie is a technology I've created that teaches users to eat intuitively.
+      <br>
+      <br>
+      Stop counting numbers, start enjoying life.
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/product-design-is-the-new-form-of-leadership-77368a535038" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="treasure-container" data-order="19">
   <div class="treasure-hero" style="background: url(img/work/3d-printing-treasure-hero.png) no-repeat center top/105%;">
     <div class="treasure-description-container">
       <h1 class="treasure-description__title">Plantar Fasciitis Ball</h1>
@@ -32,7 +49,7 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="10">
+<div class="treasure-container" data-order="20">
   <div class="treasure-hero" style="background: url(img/work/black-white-treasure-hero.png) no-repeat center top/105%;">
     <div class="treasure-description-container">
       <h1 class="treasure-description__title">Black & White Illustrations</h1>
@@ -49,7 +66,7 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="11">
+<div class="treasure-container" data-order="21">
   <div class="treasure-hero" style="background: url(img/work/tiger-art-treasure-hero.png) no-repeat center top/105%;">
     <div class="treasure-description-container">
       <h1 class="treasure-description__title">Color Changed Tigers</h1>
@@ -63,22 +80,27 @@
     </div>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="8" style="background-image: url(img/work/parallax-boxer-hero.png)">
+<div class="display-section__content-hero" data-order="17" style="background-image: url(img/work/parallax-boxer-hero.png)">
   <div class="hero-cover">
     <span>Parallax Boxing</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="9" style="background-image: url(img/work/3d-printing-hero.png)">
+<div class="display-section__content-hero" data-order="18" style="background-image: url(img/work/rosie-hero.png)">
+    <div class="hero-cover">
+      <span>Rosie</span>
+    </div>
+  </div>
+<div class="display-section__content-hero" data-order="19" style="background-image: url(img/work/3d-printing-hero.png)">
   <div class="hero-cover">
     <span>Plantar Fasciitis Treatment Ball</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="10" style="background-image: url(img/work/black-white-hero.png)">
+<div class="display-section__content-hero" data-order="20" style="background-image: url(img/work/black-white-hero.png)">
   <div class="hero-cover">
     <span>Black & White Illustrations</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/tiger-art-hero.png)">
+<div class="display-section__content-hero" data-order="21" style="background-image: url(img/work/tiger-art-hero.png)">
   <div class="hero-cover">
     <span>Color Changed Tigers</span>
   </div>

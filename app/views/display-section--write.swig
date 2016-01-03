@@ -1,4 +1,4 @@
-<div class="treasure-container" data-order="4">
+<div class="treasure-container" data-order="9">
   <div class="treasure-hero" style="background: url(img/work/atomic-design-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">The Unicorn Workflow</h1>
@@ -15,7 +15,24 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="5">
+<div class="treasure-container" data-order="10">
+  <div class="treasure-hero" style="background: url(TODO) center center/110%">
+    <div class="treasure-description-container clearfix">
+      <h1 class="treasure-description__title">You're Burning Budget on Design</h1>
+      <h2 class="treasure-description__role">Author</h2>
+      <p class="treasure-description__details">One of the biggest problems I experience when working with another designer, or team of designers, is the handoff. When I need to take over someone else’s work, it’s not uncommon for the design to lack organization. At best, the design might be organized the way whoever handed it off to me prefers to work. Time wasted translating the design into something I can understand and work with becomes a deficit in the company’s bottom line.
+      <br>
+      <br>
+      Along with increasing your ability to communicate within your team, modular design also makes changing styles across your design incredibly simple. Done properly, modular design will exponentially decrease your production time and increase your bottom line.
+      </p>
+      <div class="treasure-hero__button-container clearfix">
+        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/you-re-burning-budget-on-design-an-argument-for-modular-design-7dd3f74b4c02#.43ek1kc46" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="treasure-container" data-order="11">
   <div class="treasure-hero" style="background: url(img/work/meaning-of-learning-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">What Does It Mean To Learn?</h1>
@@ -32,7 +49,7 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="6">
+<div class="treasure-container" data-order="12">
   <div class="treasure-hero" style="background: url(img/work/end-of-writing-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">The End of Writing is Near</h1>
@@ -46,7 +63,7 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="7">
+<div class="treasure-container" data-order="13">
   <div class="treasure-hero" style="background: url(img/work/limitless-comm-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">An Era of Limitless Reach</h1>
@@ -63,22 +80,27 @@
     </div>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="4" style="background-image: url(img/work/atomic-design-hero.png)">
+<div class="display-section__content-hero" data-order="9" style="background-image: url(img/work/atomic-design-hero.png)">
   <div class="hero-cover">
     <span>The Unicorn Workflow</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="5" style="background-image: url(img/work/meaning-of-learning-hero.png)">
+<div class="display-section__content-hero" data-order="10" style="background-image: url(TODO)">
+  <div class="hero-cover">
+    <span>You're Burning Budget on Design</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/meaning-of-learning-hero.png)">
   <div class="hero-cover">
     <span>What Does It Mean To Learn?</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="6" style="background-image: url(img/work/end-of-writing-hero.png)">
+<div class="display-section__content-hero" data-order="12" style="background-image: url(img/work/end-of-writing-hero.png)">
   <div class="hero-cover">
     <span>The End of Writing is Near</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="7" style="background-image: url(img/work/limitless-comm-hero.png)">
+<div class="display-section__content-hero" data-order="13" style="background-image: url(img/work/limitless-comm-hero.png)">
   <div class="hero-cover">
     <span>An Era of Limitless Reach</span>
   </div>
