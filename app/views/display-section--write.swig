@@ -1,3 +1,17 @@
+<div class="treasure-container" data-order="12">
+  <div class="treasure-hero" style="background: url(img/work/invision-treasure-hero.png) center center/110%">
+    <div class="treasure-description-container clearfix">
+      <h1 class="treasure-description__title">InVision</h1>
+      <h2 class="treasure-description__role">Guest Writer</h2>
+      <p class="treasure-description__details">InVision is the world’s leading design collaboration platform. I write interesting and educational articles on everything from design to prototyping to code for millions of creatives, across the globe.
+      </p>
+      <div class="treasure-hero__button-container clearfix">
+        <a class="treasure-description__link button--blue" href="http://blog.invisionapp.com/author/joe-toscano-ux-designer-and-engineer-at-quick-left/" target="_blank">View Articles</a>
+        <span class="js-close-button button--red">Close</span>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="treasure-container" data-order="9">
   <div class="treasure-hero" style="background: url(img/work/atomic-design-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
@@ -49,35 +63,9 @@
     </div>
   </div>
 </div>
-<div class="treasure-container" data-order="12">
-  <div class="treasure-hero" style="background: url(img/work/end-of-writing-treasure-hero.png) center center/110%">
-    <div class="treasure-description-container clearfix">
-      <h1 class="treasure-description__title">The End of Writing is Near</h1>
-      <h2 class="treasure-description__role">Author</h2>
-      <p class="treasure-description__details">Evolution takes time. Some things change over night, some things take centuries, or even milleniums. And they say everything comes back in style eventually. I believe we are entering a time when written words once again won’t be necessary to explain ourselves.
-      </p>
-      <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/what-does-it-mean-to-learn-7ceef274c080#.21ejsez1k" target="_blank">Read More</a>
-        <span class="js-close-button button--red">Close</span>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="treasure-container" data-order="13">
-  <div class="treasure-hero" style="background: url(img/work/limitless-comm-treasure-hero.png) center center/110%">
-    <div class="treasure-description-container clearfix">
-      <h1 class="treasure-description__title">An Era of Limitless Reach</h1>
-      <h2 class="treasure-description__role">Author</h2>
-      <p class="treasure-description__details">We no longer have gatekeepers that tell us what should and should not be made public — we have the internet, which allows us all to be publishers. And not only are we sharing words and documents that take time and a level of intelligence to read and interpret, we’re sharing pictures and videos — we’re literally showing things instead of reading or speaking them, which makes understanding a concept much less difficult.
-      <br>
-      <br>
-      Instead of making a decision based on what our friends and family are doing, what we see happening around us at school or what happens during our weekend trip to town, we are making decisions based on what is popular on social media or in the mainstream media.
-      </p>
-      <div class="treasure-hero__button-container clearfix">
-        <a class="treasure-description__link button--blue" href="https://medium.com/re-write/social-influence-in-a-time-of-limitless-reach-db67a699850e" target="_blank">Read More</a>
-        <span class="js-close-button button--red">Close</span>
-      </div>
-    </div>
+<div class="display-section__content-hero" data-order="12" style="background-image: url(img/work/invision-hero.png)">
+  <div class="hero-cover">
+    <span>InVision</span>
   </div>
 </div>
 <div class="display-section__content-hero" data-order="9" style="background-image: url(img/work/atomic-design-hero.png)">
@@ -93,15 +81,5 @@
 <div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/meaning-of-learning-hero.png)">
   <div class="hero-cover">
     <span>What Does It Mean To Learn?</span>
-  </div>
-</div>
-<div class="display-section__content-hero" data-order="12" style="background-image: url(img/work/end-of-writing-hero.png)">
-  <div class="hero-cover">
-    <span>The End of Writing is Near</span>
-  </div>
-</div>
-<div class="display-section__content-hero" data-order="13" style="background-image: url(img/work/limitless-comm-hero.png)">
-  <div class="hero-cover">
-    <span>An Era of Limitless Reach</span>
   </div>
 </div>
