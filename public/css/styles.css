@@ -346,6 +346,7 @@ span.the-hunt {
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 1px 1px 4px #303030;
+  cursor: pointer;
   display: inline-block;
   float: left;
   height: 26vw;
