@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
     res.render('index', {
       title: "realjoet.me",
       description: "Joe Toscano is a UX Designer and Engineer at Quick Left in Boulder, CO. He's also a guest writer for InVision in his spare time. If he can help you in any way, he'd love to.",
-      instagram: "https://instagram.com/realjoet",
+      materialup: "http://www.materialup.com/users/realjoet",
       twitter: "https://twitter.com/realjoet",
       medium: "https://medium.com/@realjoet",
       github: "https://github.com/realjoet",

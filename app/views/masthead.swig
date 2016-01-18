@@ -1,5 +1,5 @@
 <div class="social-links">
-  <a href="{{ instagram }}" id="instagram-link" class="social-link" target="_blank">Instagram</a>
+  <a href="{{ materialup }}" id="materialup-link" class="social-link" target="_blank">Instagram</a>
   <a href="{{ twitter }}" id="twitter-link" class="social-link" target="_blank">Twitter</a>
   <a href="{{ medium }}" id="medium-link" class="social-link" target="_blank">Medium</a>
   <a href="{{ github }}" id="github-link" class="social-link" target="_blank">GitHub</a>

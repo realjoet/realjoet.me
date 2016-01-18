@@ -138,14 +138,14 @@ span.the-hunt {
   width: 60px; }
   .social-link:hover {
     transform: scale(1.05); }
-  .social-link#instagram-link {
-    background: url("../img/social/instagram-logo--35.png") no-repeat center/100%; }
+  .social-link#materialup-link {
+    background: url("../img/social/materialup-logo--35.png") no-repeat center/100%; }
     @media (min-width: 786px) {
-      .social-link#instagram-link {
-        background: url("../img/social/instagram-logo--45.png") no-repeat center/100%; } }
+      .social-link#materialup-link {
+        background: url("../img/social/materialup-logo--45.png") no-repeat center/100%; } }
     @media (min-width: 1280px) {
-      .social-link#instagram-link {
-        background: url("../img/social/instagram-logo--60.png") no-repeat center/100%; } }
+      .social-link#materialup-link {
+        background: url("../img/social/materialup-logo--60.png") no-repeat center/100%; } }
   .social-link#twitter-link {
     background: url("../img/social/twitter-logo--35.png") no-repeat center/100%; }
     @media (min-width: 786px) {
