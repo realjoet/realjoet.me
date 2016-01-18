@@ -30,7 +30,7 @@
   </div>
 </div>
 <div class="treasure-container" data-order="10">
-  <div class="treasure-hero" style="background: url(TODO) center center/110%">
+  <div class="treasure-hero" style="background: url(img/work/modular-design-treasure-hero.png) center center/110%">
     <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">You're Burning Budget on Design</h1>
       <h2 class="treasure-description__role">Author</h2>
@@ -73,7 +73,7 @@
     <span>The Unicorn Workflow</span>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="10" style="background-image: url(TODO)">
+<div class="display-section__content-hero" data-order="10" style="background-image: url(img/work/modular-design-hero.png)">
   <div class="hero-cover">
     <span>You're Burning Budget on Design</span>
   </div>
