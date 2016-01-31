@@ -96,6 +96,21 @@
     font-size: 2.4rem;
     line-height: 31px;
   }
+
+  a {
+    font-size: 1.6rem;
+    line-height: 23px;
+    
+    @media (min-width: $break-one) {
+      font-size: 1.8rem;
+      line-height: 23px;
+    }
+
+    @media (min-width: $break-two) {
+      font-size: 2.4rem;
+      line-height: 31px;
+    }
+  }
 }
 
 .treasure-hero__button-container {

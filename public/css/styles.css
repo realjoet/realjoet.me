@@ -471,6 +471,17 @@ span.the-hunt {
     .treasure-description__details {
       font-size: 2.4rem;
       line-height: 31px; } }
+  .treasure-description__details a {
+    font-size: 1.6rem;
+    line-height: 23px; }
+    @media (min-width: 786px) {
+      .treasure-description__details a {
+        font-size: 1.8rem;
+        line-height: 23px; } }
+    @media (min-width: 1280px) {
+      .treasure-description__details a {
+        font-size: 2.4rem;
+        line-height: 31px; } }
 
 .treasure-hero__button-container {
   clear: both;
