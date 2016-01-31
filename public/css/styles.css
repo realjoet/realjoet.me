@@ -482,6 +482,8 @@ span.the-hunt {
       .treasure-description__details a {
         font-size: 2.4rem;
         line-height: 31px; } }
+    .treasure-description__details a:hover {
+      text-decoration: underline; }
 
 .treasure-hero__button-container {
   clear: both;
