@@ -1,7 +1,7 @@
 <!-- DRAKELOVES.US -->
 <div class="treasure-container" data-order="22">
   <img class="treasure-hero" src="img/work/drake-loves-us-treasure-hero.png" alt="Drake's Valentine Club cover image">
-  <div class="treasure-description-container">
+  <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Drake's Valentine Club</h1>
     <h2 class="treasure-description__role">Designer/Developer</h2>
     <p class="treasure-description__details">Want to be Drake's Valentine? Of course you do. And now you can be.
@@ -17,7 +17,7 @@
 </div>
 {# <div class="treasure-container" data-order="17">
   <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) no-repeat center top;">
-    <div class="treasure-description-container">
+    <div class="treasure-description-container clearfix">
       <h1 class="treasure-description__title">Parallax Boxing</h1>
       <h2 class="treasure-description__role">Front-End Engineer</h2>
       <p class="treasure-description__details">I wanted to practice my parallax skills so I decided to build this in order to understand parallax better. Out of everything I've made, this is probably the most commented on. Scroll for three rounds and let me know what you think!
@@ -31,7 +31,7 @@
 </div> #}
 <div class="treasure-container" data-order="18">
   <img class="treasure-hero" src="img/work/rosie-treasure-hero.png" alt="Rosie cover image">
-  <div class="treasure-description-container">
+  <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Rosie</h1>
     <h2 class="treasure-description__role">Designer & Engineer</h2>
     <p class="treasure-description__details">Eating healthy is hard, especially when you don't understand the numbers. Rosie is a technology I've created that teaches users to eat intuitively.
@@ -47,7 +47,7 @@
 </div>
 <div class="treasure-container" data-order="19">
   <img class="treasure-hero" src="img/work/3d-printing-treasure-hero.png" alt="Plantar Fasciitis ball cover image">
-  <div class="treasure-description-container">
+  <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Plantar Fasciitis Ball</h1>
     <h2 class="treasure-description__role">Product Designer</h2>
     <p class="treasure-description__details">As a college athlete I experienced a lot of injuries, from sprained ankles to separated shoulders and torn groins all the way to major concussions — the worst of which was probably plantar fasciitis. Not because it’s the most painful (although it can be damn near crippling at times), but because it’s a nagging injury that never fully goes away.
@@ -66,7 +66,7 @@
 </div>
 <div class="treasure-container" data-order="20">
   <img class="treasure-hero" src="img/work/black-white-treasure-hero.png" alt="Black & White illustrations cover image">
-  <div class="treasure-description-container">
+  <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Black & White Illustrations</h1>
     <h2 class="treasure-description__role">Illustrator</h2>
     <p class="treasure-description__details">During my time at BDW we were challenged to create illustrations with two words we drew from a hat. Mine were Black & White.
@@ -82,7 +82,7 @@
 </div>
 <div class="treasure-container" data-order="21">
   <img class="treasure-hero" src="img/work/tiger-art-treasure-hero.png" alt="Color Changed Tigers cover image">
-  <div class="treasure-description-container">
+  <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Color Changed Tigers</h1>
     <h2 class="treasure-description__role">Illustrator</h2>
     <p class="treasure-description__details">I've always loved tigers. If I could have an exotic pet, it'd be a tiger or a kangaroo.
