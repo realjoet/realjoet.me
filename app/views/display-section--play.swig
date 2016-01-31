@@ -1,4 +1,22 @@
-<div class="treasure-container" data-order="17">
+<!-- DRAKELOVES.US -->
+<div class="treasure-container" data-order="22">
+  <div class="treasure-hero" style="background: url(img/work/drake-loves-us-treasure-hero.png) no-repeat center top/105%;">
+    <div class="treasure-description-container">
+      <h1 class="treasure-description__title">Drake's Valentine Club</h1>
+      <h2 class="treasure-description__role">Designer/Developer</h2>
+      <p class="treasure-description__details">Want to be Drake's Valentine? Of course you do. And now you can be.
+      <br>
+      <br>
+      If Drake isn't your favorite, this isn't for you.
+      </p>
+      <div class="treasure-hero__button-container">
+        <a class="treasure-description__link button--blue" href="http://www.drakeloves.us" target="_blank">Visit Site</a>
+        <span class="js-close-button button--red">Close</span>
+      </div>
+    </div>
+  </div>
+</div>
+{# <div class="treasure-container" data-order="17">
   <div class="treasure-hero" style="background: url(img/work/parallax-boxer-treasure-hero.png) no-repeat center top;">
     <div class="treasure-description-container">
       <h1 class="treasure-description__title">Parallax Boxing</h1>
@@ -11,7 +29,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> #}
 <div class="treasure-container" data-order="18">
   <div class="treasure-hero" style="background: url(img/work/rosie-treasure-hero.png) no-repeat center top/105%;">
     <div class="treasure-description-container">
@@ -80,11 +98,16 @@
     </div>
   </div>
 </div>
-<div class="display-section__content-hero" data-order="17" style="background-image: url(img/work/parallax-boxer-hero.png)">
+<div class="display-section__content-hero" data-order="22" style="background-image: url(img/work/drake-loves-us-hero.png)">
+  <div class="hero-cover">
+    <span>Drake's Valentine Club</span>
+  </div>
+</div>
+{# <div class="display-section__content-hero" data-order="17" style="background-image: url(img/work/parallax-boxer-hero.png)">
   <div class="hero-cover">
     <span>Parallax Boxing</span>
   </div>
-</div>
+</div> #}
 <div class="display-section__content-hero" data-order="18" style="background-image: url(img/work/rosie-hero.png)">
     <div class="hero-cover">
       <span>Rosie</span>
