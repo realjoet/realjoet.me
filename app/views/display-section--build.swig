@@ -57,7 +57,7 @@
     <p class="treasure-description__details">Have you ever heard of Atomic Design? If you haven't, you should read <a href="https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37#.8l4rouix0" target="_blank">the article I wrote about Atomic Design</a> and the follow-up I wrote about <a href="https://medium.com/re-write/you-re-burning-budget-on-design-an-argument-for-modular-design-7dd3f74b4c02#.43ek1kc46">how it can save you time and money</a> on your design process.
     <br>
     <br>
-    I created this boilerplate to make it easy to get into Atomic Design. It currently has over 400 downloads on <a href="http://www.materialup.com/posts/material-design-sketch-boilerplate" target="_blank">MaterialUp</a> and over 1800 downloads on <a href="http://www.sketchappsources.com/free-source/1661-material-design-ui-kit-boilerplate-sketch-freebie-resource.html" target="_blank">Sketch App Sources</a>.
+    I created this boilerplate to make it easy to get into Atomic Design. It currently has over 400 downloads on <a href="http://www.materialup.com/posts/material-design-sketch-boilerplate" target="_blank">MaterialUp</a>, over 1800 downloads on <a href="http://www.sketchappsources.com/free-source/1661-material-design-ui-kit-boilerplate-sketch-freebie-resource.html" target="_blank">Sketch App Sources</a>, and even got mentioned amongst the <a href="https://medium.com/sketch-app-sources/sketch-design-tool-best-of-skechappsources-com-for-your-mobile-app-design-8444cfdfe7a3#.rtw1e4h69" target="_blank">Best Sketch App Design Tools</a> on the market!
     <br>
     <br>
     Download it for free today!
