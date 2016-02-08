@@ -59,6 +59,28 @@
     </div>
   </div>
 </div>
+<div class="treasure-container" data-order="14">
+    <img class="treasure-hero" src="img/work/global-meaning-treasure-hero.png" alt="Meaning of learning article cover image">
+    <div class="treasure-description-container clearfix">
+      <h1 class="treasure-description__title">Designing for Global Meaning and Attention</h1>
+      <h2 class="treasure-description__role">Author</h2>
+      <p class="treasure-description__details">he sun rises in the east and sets in the west. Fire is hot. If Donald Trump gets elected president, it’ll be the first time a reality TV series is set in the White House.
+      <br>
+      <br>
+      These are things we can all agree on.
+      <br>
+      <br>
+      Essential truths are things we know to be true regardless of culture, context, or any other confounding variable.
+      <br>
+      <br>
+      Good design speaks an essential truth. Great design speaks an essential truth without saying a word.
+      </p>
+      <div class="treasure-hero__button-container clearfix">
+        <a class="treasure-description__link button--blue" href="http://bit.ly/20jUlB8" target="_blank">Read More</a>
+        <span class="js-close-button button--red">Close</span>
+      </div>
+    </div>
+</div>
 <div class="treasure-container" data-order="11">
     <img class="treasure-hero" src="img/work/meaning-of-learning-treasure-hero.png" alt="Meaning of learning article cover image">
     <div class="treasure-description-container clearfix">
@@ -93,6 +115,11 @@
 <div class="display-section__content-hero" data-order="13" style="background-image: url(img/work/consistent-design-hero.png)">
   <div class="hero-cover">
     <span>The Value of Consistent Design</span>
+  </div>
+</div>
+<div class="display-section__content-hero" data-order="14" style="background-image: url(img/work/global-meaning-hero.png)">
+  <div class="hero-cover">
+    <span>What Does It Mean To Learn?</span>
   </div>
 </div>
 <div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/meaning-of-learning-hero.png)">

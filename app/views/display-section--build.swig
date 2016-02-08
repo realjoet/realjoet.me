@@ -1,3 +1,4 @@
+<!-- ADD SPIFFLY.IS SITE -->
 <div class="treasure-container clearfix" data-order="1">
   <img class="treasure-hero" src="img/work/spiffly-treasure-hero.png" alt="Spiffly.is cover image">
   <div class="treasure-description-container clearfix">
@@ -14,6 +15,7 @@
     </div>
   </div>
 </div>
+<!-- ADD AMERICA'S NEXT APP SITE -->
 <div class="treasure-container" data-order="2">
   <img class="treasure-hero" src="img/work/fridays-treasure-hero.png" alt="TGI Friday's cover image">
   <div class="treasure-description-container clearfix">
@@ -55,13 +57,13 @@
     <p class="treasure-description__details">Have you ever heard of Atomic Design? If you haven't, you should read <a href="https://medium.com/re-write/the-unicorn-workflow-design-to-code-with-atomic-design-principles-and-sketch-8b0fe7d05a37#.8l4rouix0" target="_blank">the article I wrote about Atomic Design</a> and the follow-up I wrote about <a href="https://medium.com/re-write/you-re-burning-budget-on-design-an-argument-for-modular-design-7dd3f74b4c02#.43ek1kc46">how it can save you time and money</a> on your design process.
     <br>
     <br>
-    I created this boilerplate to make it easy to get into Atomic Design. It currently has over 300 downloads on MaterialUp and over 1500 downloads on Sketch App Sources.
+    I created this boilerplate to make it easy to get into Atomic Design. It currently has over 300 downloads on <a href="http://www.materialup.com/posts/material-design-sketch-boilerplate" target="_blank">MaterialUp</a> and over 1500 downloads on <a href="http://www.sketchappsources.com/free-source/1661-material-design-ui-kit-boilerplate-sketch-freebie-resource.html" target="_blank">Sketch App Sources</a>.
     <br>
     <br>
     Download it for free today!
     </p>
     <div class="treasure-hero__button-container">
-      <a class="treasure-description__link button--blue" href="http://www.materialup.com/posts/material-design-sketch-boilerplate" target="_blank">Download</a>
+      <a class="treasure-description__link button--blue" href="material-design-boilerplate.sketch" target="_blank">Download</a>
       <span class="js-close-button button--red">Close</span>
     </div>
   </div>
