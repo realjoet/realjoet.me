@@ -84,7 +84,7 @@
 <div class="treasure-container" data-order="11">
     <img class="treasure-hero" src="img/work/meaning-of-learning-treasure-hero.png" alt="Meaning of learning article cover image">
     <div class="treasure-description-container clearfix">
-      <h1 class="treasure-description__title">What Does It Mean To Learn?</h1>
+      <h1 class="treasure-description__title">Designing for Global Meaning and Attention</h1>
       <h2 class="treasure-description__role">Author</h2>
       <p class="treasure-description__details">If you type “Learn” into Google, you’ll receive nearly 3 billion results in less than half a second. And at the same time, Google will have learned something about you.
       <br>
