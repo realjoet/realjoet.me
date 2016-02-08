@@ -119,7 +119,7 @@
 </div>
 <div class="display-section__content-hero" data-order="14" style="background-image: url(img/work/global-meaning-hero.png)">
   <div class="hero-cover">
-    <span>What Does It Mean To Learn?</span>
+    <span>Designing for Global Meaning and Attention</span>
   </div>
 </div>
 <div class="display-section__content-hero" data-order="11" style="background-image: url(img/work/meaning-of-learning-hero.png)">
