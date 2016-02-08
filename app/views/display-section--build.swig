@@ -51,6 +51,7 @@
 </div>
 <!-- ADD MATERIAL DESIGN BOILERPLATE -->
 <div class="treasure-container" data-order="4">
+  <img class="treasure-hero" src="img/work/md-uikit-treasure-hero.png" alt="Material Design UI Kit cover image">
   <div class="treasure-description-container clearfix">
     <h1 class="treasure-description__title">Material Design Atomic Boilerplate</h1>
     <h2 class="treasure-description__role">Designer</h2>
