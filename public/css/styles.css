@@ -123,7 +123,7 @@ span.the-hunt {
   margin: 0 auto;
   order: 1;
   padding: 25px 0;
-  width: 80%; }
+  width: 85%; }
   @media (min-width: 786px) {
     .social-links {
       width: 60%; } }
@@ -133,9 +133,13 @@ span.the-hunt {
   border-radius: 100px;
   display: inline-block;
   font-size: 0;
-  height: 60px;
+  height: 50px;
   transition: all .4s;
-  width: 60px; }
+  width: 50px; }
+  @media (min-width: 786px) {
+    .social-link {
+      height: 60px;
+      width: 60px; } }
   .social-link:hover {
     transform: scale(1.05); }
   .social-link#materialup-link {
