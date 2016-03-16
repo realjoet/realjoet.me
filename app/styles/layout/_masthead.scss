@@ -29,7 +29,7 @@
   margin: 0 auto;
   order: 1;
   padding: 25px 0;
-  width: 85%;
+  width: 80%;
 
   @media (min-width: $break-one ) {
     width: 60%;
@@ -41,14 +41,9 @@
   border-radius: 100px;
   display: inline-block;
   font-size: 0;
-  height: 50px;
+  height: 60px;
   transition: all .4s;
-  width: 50px;
-
-  @media (min-width: $break-one ) {
-    height: 60px;
-    width: 60px;
-  }
+  width: 60px;
 
   &:hover {
     transform: scale(1.05);
